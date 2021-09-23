@@ -1,0 +1,202 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+
+$font-primary: 'Lato',Arial, sans-serif;
+$primary: #1089ff;
+
+body{
+	font-family: $font-primary;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: normal;
+	background: #f8f9fd;
+	color: lighten($black,50%);
+}
+a {
+	transition: .3s all ease;
+	color: $primary;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none;
+	}
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: $font-primary;
+	color: $black;
+}
+
+.bg-primary{
+	background: $primary !important;
+}
+
+.ftco-section{
+	padding: 7em 0;
+}
+
+.ftco-no-pt{
+	padding-top: 0;
+}
+.ftco-no-pb{
+	padding-bottom: 0;
+}
+//HEADING SECTION
+.heading-section{
+	font-size: 28px;
+	color: $black;
+}
+
+//COVER BG
+.img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.login-wrap{
+	position: relative;
+	background: $white;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+	box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+	h3{
+		font-weight: 300;
+	}
+	.icon{
+		width: 80px;
+		height: 80px;
+		background: $primary;
+		border-radius: 50%;
+		font-size: 30px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		span{
+			color: $white;
+		}
+	}
+}
+
+//FORM CONTROL
+.form-control {
+	height: 52px;
+	background: $white;
+	color: $black;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,.1);
+	&:focus, &:active {
+		outline: none !important;
+		box-shadow: none;
+		border: 1px solid $primary;
+	}
+}
+textarea.form-control {
+	height: inherit!important;
+}
+
+
+
+
+//CHECKBOX STYLE
+.checkbox-wrap {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrap input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "\f0c8";
+  font-family: "FontAwesome";
+  position: absolute;
+  color:rgba(0,0,0,.1);
+  font-size: 20px;
+  margin-top: -4px;
+  @include transition(.3s);
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrap{
+	input:checked ~ .checkmark:after {
+	  display: block;
+	  content: "\f14a";
+	  font-family: "FontAwesome";
+	  color: rgba(0,0,0,.2);
+	}
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrap .checkmark:after {
+}
+
+
+.checkbox-primary{
+  color: $primary;
+  input:checked ~ .checkmark:after {
+	  color: $primary;
+	}
+}
+
+
+//BUTTON
+.btn {
+	cursor: pointer;
+	@include border-radius(40px);
+	box-shadow: none!important;
+	font-size: 15px;
+	&:hover, &:active, &:focus {
+		outline: none;
+	}
+	&.btn-primary {
+		background: $primary !important;
+		border: 1px solid $primary !important;
+		color: $white !important;
+		&:hover {
+			border: 1px solid $primary;
+			background: transparent;
+			color :$primary;
+		}
+		&.btn-outline-primary {
+			border: 1px solid $primary;
+			background: transparent;
+			color :$primary;
+			&:hover {
+				border: 1px solid transparent;
+				background: $primary;
+				color :$white;
+			}
+		}
+	}
+}
+
