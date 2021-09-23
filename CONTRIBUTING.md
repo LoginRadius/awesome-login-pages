@@ -21,9 +21,21 @@ or make any change as you wish and submit a [PR](https://github.com/LoginRadius/
 - Update readme.md file for your folder entry and link screenshot
 - Raise PR to main repo
 
- ### Update Login Page
+### Update Login Page
 - Fork repo
 - Make sure folder n file structure and format remain intact.
 - Do changes
 - Raise PR to main repo
+
+### Guidelines on Reporting New Issues
+- Title and description of the issue
+- Useful tags if any
+- Any steps required to reproduce the issue
+- You can also mention an issue template here if required. Issue and PR Templates
+
+###Submitting PRs
+- What needs to be done while submitting the PR eg. details on what changed, what was removed, any action items needed before submitting a PR eg running tests etc.
+
+###Commit message Format
+-Commit message should be meaningful and with respect to changes 
  
