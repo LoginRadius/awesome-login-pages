@@ -5,8 +5,7 @@ A Project which includes curated list of different login page web pages.
 
 | Name           | Screenshot                                                                                                                                    | Contributed by                                     |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| login-form-01  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-01/login-form-01/screenshot.png" width="380" > <img src="login-form-01\login-form-01\screenshot_mobile.png"  height="200">       |[@hiteshkumawat](https://github.com/hiteshkumawat)  |
-|                |                                                                              |[@nshanbhag20001412](https://github.com/nshanbhag20001412) |
+| login-form-01  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-01/login-form-01/screenshot.png" width="380" >  <img src="login-form-01\login-form-01\screenshot_mobile.png"  height="200">       |[@hiteshkumawat](https://github.com/hiteshkumawat) [@nshanbhag20001412](https://github.com/nshanbhag20001412)  |
                                                                
 | login-form-02  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-02/login-form-02/screenshot.png " width="480" >   | [@hiteshkumawat](https://github.com/hiteshkumawat) |
 | login-form-03  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-03/login-form-03/screenshot.png " width="480" >   | [@abhir9](https://github.com/abhir9)               |
