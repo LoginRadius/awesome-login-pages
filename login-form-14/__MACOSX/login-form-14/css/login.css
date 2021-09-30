@@ -11,8 +11,8 @@ section {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient( -25deg, #03a9f4 0%, #3a78b7 50%, #262626 50%, #607d8d 100%);
-    filter: hue-rotate(120deg);
-    animation: animate 10s linear infinite;
+    backdrop-filter: hue-rotate(120deg);
+    animation: animate 10s ease-in infinite;
 }
 
 @keyframes animate {
@@ -27,14 +27,41 @@ section {
 .box {
     position: relative;
     padding: 50px;
+    padding-top: 0px;
     width: 360px;
     height: 480px;
     display: flex;
+    transform: translateY(-800px);
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 6px;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    animation: appare 1.5s linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appare {
+    0% {
+        transform: translateY(-800px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    55% {
+        transform: translateY(-80px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    85% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .box::after {
@@ -59,6 +86,9 @@ section {
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    top: -20px;
 }
 
 .box .form .inputBx {
@@ -144,4 +174,17 @@ section {
         width: 310px;
         height: 420px;
     }
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: -70px;
+    filter: grayscale(1);
+    margin: auto;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.1);
 }
