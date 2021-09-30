@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="form">
+                <h2>Welcome Back</h2>
+                <form class="" action="index.html" method="post" enctype="multipart/form-data">
+                    <!-- {% csrf_token %} -->
+                    <div class="inputBx">
+                        <input type="text" name="username" placeholder="Username" id="username" oninput="validation()" required autofocus>
+                        <img src="images/user.png" alt="">
+                    </div>
+                    <div class="inputBx">
+                        <input type="password" name="passward" id="password" placeholder="Passward" oninput="validation()" required>
+                        <img src="images/lock.png" alt="">
+                    </div>
+                    <label class="remeber"><input type="checkbox"> Remember Me</label>
+                    <div class="inputBx">
+                        <input type="submit" name="submit" value="Login" id="submit" disabled>
+                    </div>
+                </form>
+                <p>Forgot <a href="#">Passward</a>? </p>
+                <p>Need for a <a href="#">Account</a>? </p>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
