@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+:root {
+  --right-half-color: rgb(237, 231, 227);
+  --left-half-color: rgba(130, 192, 204, 0.5);
+  --left-half-color-gradient: rgba(130, 192, 204, 1);
+  --right-cta-hover-color: rgb(177, 112, 22);
+  --left-cta-hover-color: rgb(22, 105, 122);
+  --omrs-color-ink-medium-contrast: rgba(19, 19, 21, 0.6);
+  --omrs-color-ink-high-contrast: #121212;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+.right h1 {
+  font-size: 2.5em;
+  color: var(--left-cta-hover-color);
+}
+
+.left h1 {
+  font-size: 3em;
+  color: var(--right-cta-hover-color);
+}
+
+.left h2 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.half.left .btn:hover {
+  color: var(--left-cta-hover-color);
+  background-color: var(--left-half-color);
+  border-color: var(--left-cta-hover-color);
+}
+
+.half.right .btn:hover {
+  color: var(--left-cta-hover-color);
+  background-color: var(--right-half-color);
+  border-color: var(--left-cta-hover-color);
+}
+
+.half {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.half.right {
+  right: 0;
+  background-image: linear-gradient(
+    var(--right-half-color),
+    var(--left-half-color)
+  );
+}
+
+.half.left {
+  left: 0;
+  background-image: linear-gradient(
+    var(--left-half-color),
+    var(--right-half-color)
+  );
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: black solid 0.1rem;
+  border-radius: 15px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1rem;
+}
+
+.left .btn {
+  color: var(--right-half-color);
+  background-color: var(--right-cta-hover-color);
+  border-color: var(--left-cta-hover-color);
+}
+
+.right .btn {
+  color: var(--right-half-color);
+  background-color: var(--left-cta-hover-color);
+}
+
+.reset {
+  text-decoration: none;
+  color: var(--omrs-color-ink-high-contrast);
+}
+
+.reset:hover {
+  text-decoration: underline;
+}
+
+div.omrs-input-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: 20.4375rem;
+}
+
+.omrs-input-filled > input {
+  border: none;
+  border-bottom: 0.125rem solid var(--omrs-color-ink-medium-contrast);
+  width: 100%;
+  height: 4rem;
+  font-size: 1.0625rem;
+  padding-left: 0.875rem;
+  line-height: 147.6%;
+  padding-top: 0.825rem;
+  padding-bottom: 0.5rem;
+}
+
+.omrs-input-filled > input:focus {
+  outline: none;
+}
+
+.omrs-input-filled > .omrs-input-label {
+  position: absolute;
+  top: 0.9375rem;
+  left: 0.875rem;
+  line-height: 147.6%;
+  color: var(--omrs-color-ink-medium-contrast);
+  transition: top 0.2s;
+}
+
+.omrs-input-filled > input:focus + .omrs-input-label,
+.omrs-input-filled > input:valid + .omrs-input-label {
+  top: 0;
+  font-size: 0.9375rem;
+  margin-bottom: 32px;
+}
