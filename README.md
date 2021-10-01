@@ -19,6 +19,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-11  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-11/login-form-11/screenshot.png " width="480" >   | <img src="login-form-11\login-form-11\ScreenshotMobile.png" height="200" width="100" >   | [@abhir9](https://github.com/abhir9)               |
 | login-form-12  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-12/login-form-12/screenshot.png " width="480" >   | <img src="login-form-12\login-form-12\ScreenshotMobile.png" height="200" width="100" >   | [@abhir9](https://github.com/abhir9)               |
 | login-form-13  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-13/login-form-13/screenshot.png " width="480" >   | <img src="login-form-13\login-form-13\ScreenshotMobile.png" height="200" width="100" >   | [@hiteshkumawat](https://github.com/hiteshkumawat) |
+| login-form-14  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-14/login-form-14/screenshot.gif" width="480" >   || [@tirtharajsinha](https://github.com/tirtharajsinha)  |
 | login-form-v1  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v1/login-form-v1/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
 | login-form-v2  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v2/login-form-v2/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
 | login-form-v3  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v3/login-form-v3/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
@@ -41,3 +42,4 @@ A Project which includes curated list of different login page web pages.
 - Please check the [issue list](https://github.com/LoginRadius/awesome-login-pages/issues) .
 
 ## LICENSE : [MIT](https://github.com/LoginRadius/awesome-login-pages/blob/main/LICENSE)
+
