@@ -1,86 +1,113 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+@font-face {
+  src: url(fonts/Quantum.otf);
+  font-family: Quantum;
 }
-body {
-    background: #e35869;
-    font-family: 'Rubik', sans-serif;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Quantum;
+  background: url('./images/Doodle.jpg.jpg');
 }
-.login-form {
-    background: #fff;
-    width: 500px;
-    margin: 65px auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 4px;
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+      box-shadow: -1px 92px 99px -62px rgba(3, 107, 255, 0.27), 0 1px 6px 0 rgba(10, 48, 255, 0.48);
+    border-radius: 5px;
 }
-.login-form h1 {
-    padding: 35px 35px 0 35px;
-    font-weight: 300;
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.login-form .content {
-    padding: 35px;
-    text-align: center;
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+
 }
-.login-form .input-field {
-    padding: 12px 5px;
+
+.box a
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  width:10%;
 }
-.login-form .input-field input {
-    font-size: 16px;
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+   -webkit-animation: 9s colorChange alternate;
+  transition height 0.3s, width 0.3s 0.1s
+  input:focus ~ .border
+
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box a[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+.box a[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+h1 {
     display: block;
-    font-family: 'Rubik', sans-serif;
-    width: 100%;
-    padding: 10px 1px;
-    border: 0;
-    border-bottom: 1px solid #747474;
-    outline: none;
-    transition: all 0.2s;
-}
-.login-form .input-field input::placeholder {
-    text-transform: uppercase;
-}
-.login-form .input-field input:focus {
-    border-color: #222;
-}
-.login-form a.link {
-    text-decoration: none;
-    color: #747474;
-    letter-spacing: 0.2px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-top: 20px;
-}
-.login-form .action {
-    display: flex;
-    flex-direction: row;
-}
-.login-form .action button {
-    width: 100%;
-    border: none;
-    padding: 18px;
-    font-family: 'Rubik', sans-serif;
-    cursor: pointer;
-    text-transform: uppercase;
-    background: #e8e9ec;
-    color: #777;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 0;
-    letter-spacing: 0.2px;
-    outline: 0;
-    transition: all 0.3s;
-}
-.login-form .action button:hover {
-    background: #d8d8d8;
-}
-.login-form .action button:nth-child(2) {
-    background: #2d3b55;
-    color: #fff;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 4px;
-}
-.login-form .action button:nth-child(2):hover {
-    background: #3c4d6d;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
