@@ -37,6 +37,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
 
+| login-page-1 | <img src="https://github.com/Swatigupta-droid/awesome-login-pages/blob/main/login-page-1/screenshot.jpg" width="480" > || [@Swatigupta-droid](https://github.com/Swatigupta-droid) |
 
 
 ## CONTRIBUTION
