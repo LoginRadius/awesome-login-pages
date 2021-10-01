@@ -33,6 +33,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v11 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v11/login-form-v11/screenshot.png " width="480" > ||[@abhir9](https://github.com/abhir9)                |
 | login-form-v12 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v12/login-form-v12/screenshot.png " width="480" > || [@abhir9](https://github.com/abhir9)               |
 | login-form-v14 | <img src="login-form-v14/screenshot.PNG" width="480" > || [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
+| login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 
 
 
