@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19BCE1398(Prashat setia)</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        body {
+            background-image: url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        div.form {
+            /* opacity: 0.8; */
+            background-color: rgba(1,3,0,0.8);
+            border: 1px solid whitesmoke;
+            width: 50%;
+            padding: 40px;
+            border-radius: 79px;
+            color: whitesmoke;
+            /* align-items: center; */
+            display: inline-block;
+            /* margin: auto; */
+            /* background-color: black; */
+            display: block;
+            margin: auto;
+        }
+
+        div#heading {
+            background-color: rgba(1,3,0,0.5);
+            border: 1px solid red;
+            padding: 30px;
+            font-size: 23px;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 63px;
+            font-family: monospace;
+            /* background-color: #000000; */
+        }
+
+        div.btn {
+            margin: auto;
+            width: 40%;
+            text-align: center;
+        }
+
+        .button {
+            margin: 15px;
+            border: 1px solid red;
+            border-radius: 20px;
+            /* padding: 0px; */
+            background-color: #ff4c4c;
+            font-size: 16px;
+            padding: 7px;
+            color: #010101;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form">
+        <div id="heading">
+            <img src="https://www.carlogos.org/car-logos/tesla-logo-2200x2800-show.png" width="30%" alt="">
+            <h1>Pre-Book Your Car Now !!</h1>
+        </div>
+        <hr>
+        <label for="fname" class="ele">FIRST NAME : </label>
+        <input type="text" maxlength="20" placeholder="your first name .." id="fname">
+        <img src="https://specials-images.forbesimg.com/imageserve/5f0154b6ac70560006cb5352/960x0.jpg?fit=scale" width="100px" style="float: right; width: 50%;" alt="">
+        <br>
+        <br>
+        <label for="lname" class="ele">LAST NAME : </label>
+        <input type="text" maxlength="20" placeholder="your last name .." id="lname">
+        <br>
+        <br>
+        <label for="mail" class="ele">E MAIL : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" name="email" id="mail">
+        <br>
+        <br>
+        <label for="date" class="ele">DATE OF BIRTH : </label>
+        <input type="date" id="date">
+
+        <br>
+        <br>
+        <label for="gender" class="ele">GENDER : </label>
+        Male <input type="radio" id="gender" name="gen">
+        Female <input type="radio" id="gender" name="gen">
+
+        <br>
+        <br>
+        <label for="address" class="ele">Address : </label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+        <label for="city" class="ele">Pick/Enter your city name : </label>
+        <select name="" id="city">
+            <option value="haryana">Hisar</option>
+            <option value="delhi">Delhi</option>
+            <option value="chennai">Chennai</option>
+            <option value="chandigarh">Chandigarh</option>
+        </select>
+        <input type="text" placeholder="You can type your city here ..">
+        <input type="submit" value="Save">
+
+        <br>
+        <br>
+        <label for="city" class="ele">PIN Code : </label>
+        <input type="text" maxlength="6" placeholder="125121">
+
+        <br>
+        <br>
+        <label for="hobbies" class="ele">Accessories : </label>
+        &nbsp;Seat Covers <input type="checkbox" name="check" id="checkbox">
+        &nbsp;Music System <input type="checkbox" name="check" id="checkbox">
+        &nbsp;Floor Mats <input type="checkbox" name="check" id="checkbox">
+        <br>
+        <br>
+        <br>
+        <label for="quali" class="ele">Booking Car/Cars Details : </label>
+        <br>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Name of Car</th>
+                    <th>Fuel Type</th>
+                    <th>Model/Year</th>
+                </tr>
+                <tr>
+                    <th>1.</th>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <th>2.</th>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <th>3.</th>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                    <td><input type="text" name="" id="" maxlength="20"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <label for="pid" class="ele">Uplaod Photo Of Your 2 ID Proofs and Driving Lisence : </label>
+        <input type="file" name="id" id="pid">
+
+        <br>
+        <br>
+        <label for="color" class="ele">Your Preffered Seat Cover's Color : </label>
+        <input type="color" name="color" id="color">
+        <br>
+        <br>
+        <div class="btn">
+            <input type="submit" value="submit" class="button">
+            <input type="reset" value="reset" class="button">
+        </div>
+
+
+    </div>
+</body>
+
+</html>
