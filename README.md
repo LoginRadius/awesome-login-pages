@@ -32,8 +32,8 @@ A Project which includes curated list of different login page web pages.
 | login-form-v10 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v10/login-form-v10/screenshot.png " width="480" > || [@abhir9](https://github.com/abhir9)               |
 | login-form-v11 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v11/login-form-v11/screenshot.png " width="480" > ||[@abhir9](https://github.com/abhir9)                |
 | login-form-v12 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v12/login-form-v12/screenshot.png " width="480" > || [@abhir9](https://github.com/abhir9)               |
-| login-form-v17 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v17/Screenshot.png " width="480" > || [@gothira](https://github.com/gothira)               |
 | login-form-v14 | <img src="login-form-v14/screenshot.PNG" width="480" > || [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
+| login-form-v17 | <img src="https://github.com/gothira/awesome-login-pages/blob/main/login-form-v17/Screenshot.png " width="480" > || [@gothira](https://github.com/gothira)               |
 
 
 
