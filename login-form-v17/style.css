@@ -1,0 +1,83 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* set font-size to root element */
+html {
+    font-size: 62.5%;
+}
+
+/* Main container styling */
+#container {
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+    width: 46%;
+    margin: auto;
+    margin-top: 10rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 1px 1px 29px 2px rgb(204 201 201);
+    border-radius: 15px;
+}
+/* heading styling */
+#heading{
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+/* labels styling */
+.label {
+    color: rgb(90, 90, 90);
+    font-size: 1.5rem;
+    padding: 0.1rem;
+}
+
+/* input styling */
+.input {
+    padding: 1.2rem;
+    margin: 1rem;
+    width: 71%;
+    border: 2px solid black;
+    border-radius: 16px;
+    outline:none;
+}
+.input:focus{
+    border:2px solid #2F4AFF;
+}
+
+/* forget password styling */
+.forgetPass{
+    margin:1rem;
+   
+}
+.forgetPass a{
+    font-size: 1.4rem;
+    color: #0aa5ff;
+}
+
+/* SignIn Button styling */
+#signInBtn {
+    width: 71%;
+    height: 5rem;
+    padding: 1rem;
+    margin: 2rem;
+    margin-top:1rem;
+    border-radius:10px;
+    border: none;
+    background-color: #4727FF;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#signInBtn:hover{
+    border: 2px solid #4727FF;
+    background-color: rgb(255, 255, 255);
+    color: #4727FF;
+}
