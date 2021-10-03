@@ -35,7 +35,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v14 | <img src="login-form-v14/screenshot.PNG" width="480" > || [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
 | login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
-| login-form-v17 | <img src="login-form-v17/Screenshot 2021-10-02 140459.png" width="480" > || [@tamojeetK](https://github.com/tamojeetK) |
+| login-form-v18  |  <img src="login-form-v18/Screenshot .png" width="480" >| <img src="login-form-v18/MobileScreenshot.png" height="200" width="100" >   | [@tamojeetK](https://github.com/tamojeetK)|
 
 
 
