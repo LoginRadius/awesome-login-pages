@@ -20,6 +20,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-12  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-12/login-form-12/screenshot.png " width="480" >   | <img src="login-form-12\login-form-12\ScreenshotMobile.png" height="200" width="100" >   | [@abhir9](https://github.com/abhir9)               |
 | login-form-13  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-13/login-form-13/screenshot.png " width="480" >   | <img src="login-form-13\login-form-13\ScreenshotMobile.png" height="200" width="100" >   | [@hiteshkumawat](https://github.com/hiteshkumawat) |
 | login-form-14  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-14/login-form-14/screenshot.gif" width="480" >   || [@tirtharajsinha](https://github.com/tirtharajsinha)  |
+| login-form-15  | <img src="https://raw.githubusercontent.com/harshkulkarni17/awesome-login-pages/main/login-form-15/login-form-15/screenshot.png " width="480" >   | <img src="login-form-15\login-form-15\ScreenshotMobile.png" height="200" width="100" >   | [@harshkulkarni17](https://github.com/harshkulkarni17) |
 | login-form-v1  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v1/login-form-v1/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
 | login-form-v2  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v2/login-form-v2/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
 | login-form-v3  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v3/login-form-v3/screenshot.png " width="480" >   || [@abhir9](https://github.com/abhir9)               |
@@ -35,8 +36,9 @@ A Project which includes curated list of different login page web pages.
 | login-form-v14 | <img src="login-form-v14/screenshot.PNG" width="480" > || [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
 | login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
-| login-form-ver2 | <img src="https://github.com/LoginRadius/awesome-login-pages/blob/main/login-form-ver2/screenshot.png" width="480" > || [@RashmiShukla07](https://github.com/RashmiShukla07)|
 
+| login-form-ver2 | <img src="https://github.com/LoginRadius/awesome-login-pages/blob/main/login-form-ver2/screenshot.png" width="480" > || [@RashmiShukla07](https://github.com/RashmiShukla07)|
+| login-page-1 | <img src="https://github.com/Swatigupta-droid/awesome-login-pages/blob/main/login-page-1/screenshot.jpg" width="480" > || [@Swatigupta-droid](https://github.com/Swatigupta-droid) |
 
 
 ## CONTRIBUTION
