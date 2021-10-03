@@ -36,6 +36,8 @@ A Project which includes curated list of different login page web pages.
 | login-form-v14 | <img src="login-form-v14/screenshot.PNG" width="480" > || [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
 | login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
+
+| login-form-ver2 | <img src="https://github.com/LoginRadius/awesome-login-pages/blob/main/login-form-ver2/screenshot.png" width="480" > || [@RashmiShukla07](https://github.com/RashmiShukla07)|
 | login-page-1 | <img src="https://github.com/Swatigupta-droid/awesome-login-pages/blob/main/login-page-1/screenshot.jpg" width="480" > || [@Swatigupta-droid](https://github.com/Swatigupta-droid) |
 
 
@@ -45,4 +47,3 @@ A Project which includes curated list of different login page web pages.
 - Please check the [issue list](https://github.com/LoginRadius/awesome-login-pages/issues) .
 
 ## LICENSE : [MIT](https://github.com/LoginRadius/awesome-login-pages/blob/main/LICENSE)
-
