@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  </head>
+  <body>
+    <div class="login-reg-panel">
+    		<div class="login-info-box">
+    			<h2>Have an account?</h2>
+    			<p>Login to your account</p>
+    			<label id="label-register" for="log-reg-show">Login</label>
+    			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+    		</div>
+
+    		<div class="register-info-box">
+    			<h2>Don't have an account?</h2>
+    			<p>Register Yourself </p>
+    			<label id="label-login" for="log-login-show">Register</label>
+    			<input type="radio" name="active-log-panel" id="log-login-show">
+    		</div>
+
+    		<div class="white-panel">
+    			<div class="login-show">
+    				<h2>LOGIN</h2>
+    				<input type="text" placeholder="Email">
+    				<input type="password" placeholder="Password">
+    				<input type="button" value="Login">
+    				<a href="">Forgot password?</a>
+    			</div>
+    			<div class="register-show">
+    				<h2>REGISTER</h2>
+    				<input type="text" placeholder="Email">
+    				<input type="password" placeholder="Password">
+    				<input type="password" placeholder="Confirm Password">
+    				<input type="button" value="Register">
+    			</div>
+    		</div>
+    	</div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="js/page.js" charset="utf-8"></script>
+  </body>
+</html>
