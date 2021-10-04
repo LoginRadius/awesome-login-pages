@@ -37,7 +37,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
 | login-form-with dark mode  | <img src="https://github.com/JoelJJoseph/Login-page/blob/main/login.gif?raw=true"  width="480" >   | <img src="https://raw.githubusercontent.com/JoelJJoseph/awesome-login-pages/main/Loginform%20with%20dark%20mode%20and%20animation/phone%20ss.JPG" height="200" width="100" >   | [@JoelJJoseph](https://github.com/JoelJJoseph) |
               |
-| login-form-with dark mode  | <img src="https://github.com/JoelJJoseph/Login-page/blob/main/login.gif?raw=true" width="480" >   || [@JoelJJoseph](https://github.com/JoelJJoseph) |
+
 
 
 
