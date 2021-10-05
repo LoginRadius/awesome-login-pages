@@ -40,7 +40,7 @@ A Project which includes curated list of different login page web pages.
 
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
 | login-form-v17  |  <img src="login-form-v17/desktop_screenshot.PNG" width="480" >  | <img src="login-form-v17/mobile_screenshot.PNG" height="200" width="100" > |   [@satyam73](https://github.com/satyam73)               |
-| login-form-v18  |  <img src="login-form-v18/screenshot.png" width="480" >  | <img src="login-form-v18/screenshot-mobile.png" height="200" width="100" > |   [@Bushra109](https://github.com/Bushra109)               |
+| login-form-v24  |  <img src="login-form-v24/screenshot.png" width="480" >  | <img src="login-form-v24/screenshot-mobile.png" height="200" width="100" > |   [@Bushra109](https://github.com/Bushra109)               |
 
 ## CONTRIBUTION
 
