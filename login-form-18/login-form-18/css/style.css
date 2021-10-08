@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+::selection {
+    background: #2D2F36;
+  }
+  
+  body {
+    background: white;
+    font-family: 'Inter UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .page {
+    background: #B30049;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    position: absolute;
+    place-content: center;
+    width: calc(100% - 40px);
+  }
+  @media (max-width: 767px) {
+    .page {
+      height: auto;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  .container {
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+  }
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      height: 630px;
+      width: 320px;
+    }
+  }
+  .left {
+    background: white;
+    height: calc(100% - 40px);
+    top: 20px;
+    position: relative;
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    .left {
+      height: 100%;
+      left: 20px;
+      width: calc(100% - 40px);
+      max-height: 270px;
+    }
+  }
+  .login {
+    color: #B30049;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px 40px 40px;
+  }
+  .eula {
+    color: #828282;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 40px;
+  }
+  .right {
+    background: #070D0D;
+    box-shadow: -20px 0px 34px -10px rgba(0,0,0,0.75);
+    color: #F1F1F2;
+    position: relative;
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    .right {
+      flex-shrink: 0;
+      height: 100%;
+      width: 100%;
+      max-height: 350px;
+    }
+  }
+  svg {
+    position: absolute;
+    width: 320px;
+  }
+  path {
+    fill: none;
+    stroke: url(#linearGradient);;
+    stroke-width: 4;
+    stroke-dasharray: 240 1386;
+  }
+  .form {
+    margin: 40px;
+    position: absolute;
+  }
+  label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: transparent;
+    border: 1px solid #EDC8FE;
+    border-radius:  25px;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+  }
+  
+  
+  #submit {
+    color: #c2c2c5;
+    width: 100%;
+    height:  35px;
+    background: #070D0D;
+    border: 1px solid #EDC8FE;
+    border-radius:  25px;
+    margin-top: 40px;
+    transition: color 1s ease-out;
+    cursor: pointer;
+  }
+  #submit:hover{
+    color: #fff;
+  }
+  #submit:active {
+    color: #d0d0d2;
+  }

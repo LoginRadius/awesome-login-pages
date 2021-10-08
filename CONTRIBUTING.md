@@ -17,6 +17,7 @@ or make any change as you wish and submit a [PR](https://github.com/LoginRadius/
 - Name your folder 
 - Place supported assets like js, css, images
 - Keep the main html name as index.html
+- Do not include multiple login pages in same folder
 - Add a screenshot.jpg in side your folder folder at root level (can check other examples)
 - Update readme.md file for your folder entry and link screenshot
 - Raise PR to main repo
