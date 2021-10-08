@@ -1,0 +1,779 @@
+/***********************************************************
+ *
+ * Project name: 	Nimoy · Login & Register Form HTML Template
+ * Decription: 		HTML | Miscellaneous Template for ThemeForest.net
+ * Author: 			ceosDesigns
+ * Link:			http://nimoy.ceosdesigns.sk/ 
+ * Version:			1.00
+ *
+ ************************************************************/
+ 
+/************************************************************
+ *
+ * *****************
+ * TABLE OF CONTENTS
+ * *****************
+ *
+ *  01. GENERAL
+ *
+ *  02. PRELOADER
+ *
+ *  03. LAYOUT
+ *  	03.01 NON-FORM SIDE
+ *  	03.02 FORM SIDE
+ *
+ *  04. ELEMENTS
+ *  	04.00 TEXT-RELATED
+ *  	04.01 LOGO
+ *  	04.02 FORM INPUTS
+ *  	04.03 FORM CHECK
+ *  	04.04 BUTTON 
+ * 		04.05 SOCIAL
+ * 
+ *  05. MEDIA QUERIES
+ 
+ ************************************************************/
+
+/*****************************/
+/*  01. GENERAL              */
+/*****************************/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+  	font-weight: 400;
+  	line-height: 1.5;
+	color: #8f959f;
+	text-align: left;	
+	background-color: #0d1a2e;
+	/*background: linear-gradient(135deg,#ed6db1,#425be4);*/
+}
+
+label {
+	font-size: 0.8rem;
+	color: #8f959f;
+	margin-bottom: 0rem;
+}
+
+a {
+	transition: all .2s ease-in;
+	text-decoration: none;
+	background-color: transparent;
+	color: #425be4;
+}
+
+a:hover {
+	color: #556ff2;
+	text-decoration: none;
+}
+
+a.footer {
+	color: #677788 !important;
+}
+
+.hidden {
+	display: none !important;
+}
+
+/*****************************/
+/*  02. PRELOADER            */
+/*****************************/
+
+#nm-preloader {
+	display: flex;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
+	z-index: 11;
+	background-color: #fff;
+	justify-content: center;
+}
+
+.nm-ripple {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+
+.nm-ripple div {
+	position: absolute;
+	border: 4px solid #007bff;
+	opacity: 1;
+	border-radius: 50%;
+	animation: nm-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.nm-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes nm-ripple {
+	0% {
+	  	top: 36px;
+	  	left: 36px;
+	  	width: 0;
+	  	height: 0;
+	  	opacity: 1;
+	}
+	100% {
+	  	top: 0px;
+	  	left: 0px;
+	  	width: 72px;
+	  	height: 72px;
+	  	opacity: 0;
+	}
+}
+
+/*****************************/
+/*  03. LAYOUT               */
+/*****************************/
+
+	/*****************************/
+	/*  03.01 NON-FORM SIDE      */
+	/*****************************/
+
+	.overlay {
+		background: linear-gradient(135deg,#ed6db1,#425be4);
+		opacity: 0.85;
+		position: absolute;
+		top: 0px; 
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		  align-items: center;
+		justify-content: center;
+	}
+	
+	.hero-item {
+		min-width: 80%;
+		text-align: left;
+	}
+	
+	.hero-item-1 {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.hero-item h2 {
+		color: #ffffff;
+		font-size: 3rem;
+		font-weight: 600;
+	}
+	
+	.hero-item img {
+		height: 50px;
+		margin-top: 3rem;
+	}
+	
+	ul {
+		justify-content: left; 
+		width: 80%; 
+		list-style: none; 
+		flex-wrap: wrap; 
+		display: flex; 
+		padding: 0; 
+		margin: 0; 
+		text-align: left; 
+		color: #ffffff; 
+		font-size: 1rem; 
+		font-weight: 600;
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+	}
+	
+	
+	li {
+		flex-basis: 0%;	
+		flex-shrink: 1;	
+		margin: 2px;
+		margin-right: 3rem;
+		position: relative;
+	}
+	
+	li > a, li > a:hover {
+		color: #ffffff; 
+	}
+	
+	li > a::after {
+		color: #ffffff; 
+		content: "";
+		position: absolute;
+		top: 100%;
+		  height: 2px;
+		  width: 100%;
+		  left: 0%;
+		background-color: transparent;
+		transition: all 0.15s ease-in-out;
+	}
+	
+	li:hover > a::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		  height: 2px;
+		  width: 100%;
+		  left: 0%;
+		  background-color:#ffffff;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-top: 0;
+	}
+	
+	h2.large {
+		font-size: 1.75rem;
+		margin-bottom: 0.5rem;
+		font-weight: 600;
+	}
+	
+	p {
+		margin-top: 0;
+		font-size: 0.875rem;
+		font-weight: 400;
+		margin-bottom: 0rem;
+	}
+
+	div.header {
+		margin-bottom: 3rem;
+	}
+	
+	p.h2 {
+		font-size: 1.25rem;
+		margin-bottom: 0.5rem;
+		font-weight: 600;
+		text-align: left;
+		color: #ffffff;
+	}
+	
+	.header p:last-child {
+		color: #8f959f;
+	}
+
+	main {
+		min-height: 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;	
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: normal !important;
+		flex-direction: column !important;
+		padding: 10px;
+	}
+	
+	.main-container {
+		margin-bottom: auto !important;
+		margin-top: auto !important;
+	}
+
+	/*****************************/
+	/*  03.02 FORM SIDE          */
+	/*****************************/
+
+	.btn-block {
+		width: 100%;
+	}
+
+	.nm-mlr-1 {
+		margin-left: 3rem !important;
+		margin-right: 3rem !important;
+	}
+
+	.nm-tc {
+		text-align: center !important;
+	}
+
+	.nm-aic {
+		-webkit-box-align: center !important;
+		align-items: center !important;
+	}
+
+	.nm-jcb {
+		-webkit-box-pack: justify !important;
+		justify-content: space-between !important;
+	}
+
+	.nm-mb-0 {
+		margin-bottom: 0rem !important;
+	}
+
+	.nm-mb-1 {
+		margin-bottom: 1.5rem !important;
+	}
+
+	.nm-mt-1 {
+		margin-top: 1.5rem !important;
+	}
+
+	.nm-gp-pp {
+		position: absolute;
+		top: 0.75rem;
+		left: 0.25rem;
+		background-color: transparent !important;
+		color: #8f959f;
+		border: none;
+		z-index: 10;
+		font-size: 1rem;
+	}
+	
+	.nm-mr-1h {
+		margin-right: 0.25rem;
+	}
+
+	.divider {
+		text-align: center;
+		margin: 4rem auto 2rem;
+		font-size: 0.875rem;
+		font-weight: 600;
+	}
+
+	.card {
+		position: relative;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+		min-width: 0;
+		background-clip: border-box;
+		background-color: #0d1a2e;
+		border: 0 solid transparent;
+		min-height: 50vh;
+	}
+	
+	.card-content {
+		padding: 1.5rem !important;
+	
+		-webkit-box-flex: 1;
+		flex: 1 1 auto;
+	}
+	
+	.nm-bgi {
+		background-image: url('../images/smBackground.jpg'); 
+		background-repeat: no-repeat; 
+		background-position: center center; 
+		background-size: cover;
+		position: relative;
+	}
+	
+	.nm-row {
+		box-shadow: 0 0.925rem 5.5rem 0 rgba(0, 0, 0, 0.8);
+		background-color: #0d1a2e;
+		border-radius: 0.25rem;
+		overflow: hidden;
+	}
+
+/*****************************/
+/* 04. ELEMENTS              */
+/*****************************/
+
+	/*****************************/
+	/*  04.00 TEXT-RELATED       */
+	/*****************************/
+
+	.nm-ft-b {
+		font-weight: 600;
+		font-size: 0.875rem;
+	}
+
+	.nm-wh {
+		color: #ffffff;
+	}
+
+	/*****************************/
+	/*  04.01 LOGO               */
+	/*****************************/
+
+	/*****************************/
+	/*  04.02 FORM INPUTS        */
+	/*****************************/
+
+	.form-group {
+		margin-bottom: 1rem;
+	}
+
+	.form-control {
+		background-color: transparent;
+		border: none;
+		border-bottom: 0.0625rem solid #253143;
+		border-radius: 0;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.6;
+		color: #ffffff;
+		padding: 0.75rem 1rem 0.75rem 2rem;
+		height: 3.225rem;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	}
+
+	.form-control:focus {
+		background-color: transparent;
+		border-color: #425be4;
+		color: #ffffff;
+		outline: 0;
+		box-shadow: none;
+	}
+
+	.form-group:focus-within label {
+		color: #425be4;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		color: #8f959f;
+		opacity: 1;
+	}
+
+	.form-control::-moz-placeholder{
+		color: #8f959f;
+		opacity: 1;
+	}
+
+	.form-control:-ms-input-placeholder{
+		color: #8f959f;
+		opacity: 1;
+	}
+
+	.form-control::placeholder{
+		color: #8f959f;
+		opacity: 1;
+	}
+
+	.nm-control {
+		position: relative;
+		display: block;
+		min-height: 1.5rem;
+		padding-left: 1.5rem;
+	}
+
+	.nm-control-input {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.nm-control-label {
+		font-size: 0.875rem;
+		font-weight: 400;
+		color: #ffffff;
+		position: relative;
+		margin-bottom: 0;
+		vertical-align: top;
+	}
+
+	/*****************************/
+	/*  04.03 FORM CHECK         */
+	/*****************************/
+
+	.nm-checkbox .nm-control-label::before {
+		border-radius: 0.125rem;
+	}
+
+	.nm-control-label::before, .nm-file-label {
+		transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	}
+
+	.nm-control-label::before {
+		position: absolute;
+		top: 0.2rem;
+		left: -1.5rem;
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		pointer-events: none;
+		content: "";
+		background-color: transparent;
+		border: 1px solid #8f959f;
+	}
+
+	.nm-control-label::after {
+		position: absolute;
+		top: 0.2rem;
+		left: -1.5rem;
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		content: "";
+		background: no-repeat 50% / 50% 50%;
+	}
+
+	.nm-control-input:checked ~ .nm-control-label::before {
+		color: #ffffff;
+		border-color: #425be4;
+		background-color: #425be4;
+	}
+
+	.nm-checkbox .nm-control-input:checked ~ .nm-control-label::after {
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+	}
+
+	.nm-control-label::after {
+		position: absolute;
+		top: 0.2rem;
+		left: -1.5rem;
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		content: "";
+		background: no-repeat 50% / 50% 50%;
+	}
+
+	/*****************************/
+	/*  04.04 BUTTON             */
+	/*****************************/
+
+	.nm-btn {
+		min-width: 9.25rem;
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 1.2;
+		text-align: center;
+		vertical-align: middle;
+		user-select: none;
+		padding: 0.875rem 0.875rem;
+		border-radius: 0.25rem;
+		color: #ffffff;
+		background-color: #425be4;
+		border: 1px solid #425be4;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	}
+
+	.nm-btn:focus,.nm-btn:active {
+		box-shadow: none;
+		background-color: #425be4 !important;
+		border: 1px solid #425be4 !important;
+	}
+
+	.btn-primary:not(:disabled):not(.disabled):active:focus {
+		box-shadow: none;
+	}
+
+	.nm-btn:hover {
+		background-color: #556ff2;
+		border: 1px solid #556ff2;
+	}
+
+	/*****************************/
+	/*  04.05 SOCIAL             */
+	/*****************************/
+
+	.social {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.social .btn {
+		border-color: #3d4757;
+		color: #c5c8cd;
+		background-color: transparent;
+		border-radius:20em;   
+	}
+
+	/* FACEBOOK */
+	.btn-facebook:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-facebook:hover {
+		color: #fff !important;
+		background-color: #3b5998 !important;
+		border-color: #3b5998 !important;
+	}
+
+	.btn-facebook:active {
+		color: #fff !important;
+		background-color: #2d4373 !important;
+		border-color: #2d4373 !important;
+	}
+
+	/* TWITTER */
+	.btn-twitter:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-twitter:hover {
+		color: #fff !important;
+		background-color: #66c3ff !important;
+		border-color: #66c3ff !important;
+	}
+
+	.btn-twitter:active {
+		color: #fff !important;
+		background-color: #33afff !important;
+		border-color: #33afff !important;
+	}
+
+	/* GOOGLE */
+	.btn-google:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-google:hover {
+		color: #fff !important;
+		background-color: #e6162d !important;
+		border-color: #e6162d !important;
+	}
+
+	.btn-google:active {
+		color: #fff !important;
+		background-color: #cf1026 !important;
+		border-color: #cf1026 !important;
+	}
+
+	/* LINKEDIN */
+	.btn-linkedin:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-linkedin:hover {
+		color: #fff !important;
+		background-color: #0077b5 !important;
+		border-color: #0077b5 !important;
+	}
+
+	.btn-linkedin:active {
+		color: #fff !important;
+		background-color: #066192 !important;
+		border-color: #066192 !important;
+	}
+
+	/* INSTAGRAM */
+	.btn-instagram:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-instagram:hover {
+		color: #fff !important;
+		background-color: #304d63 !important;
+		border-color: #304d63 !important;
+	}
+
+	.btn-instagram:active {
+		color: #fff !important;
+		background-color: #223a4d !important;
+		border-color: #223a4d !important;
+	}
+
+	/* APPLE */
+	.btn-apple:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-apple:hover {
+		color: #fff !important;
+		background-color: #111111 !important;
+		border-color: #111111 !important;
+	}
+
+	.btn-apple:active {
+		color: #fff !important;
+		background-color: #000000 !important;
+		border-color: #000000 !important;
+	}
+
+	/* AMAZON */
+	.btn-amazon:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+
+	.btn-amazon:hover {
+		color: #fff !important;
+		background-color: #FF9900 !important;
+		border-color: #FF9900 !important;
+	}
+
+	.btn-amazon:active {
+		color: #fff !important;
+		background-color: #df8805 !important;
+		border-color: #df8805 !important;
+	}
+
+	/* YAHOO */
+	.btn-yahoo:focus {
+		border-color: #3d4757 !important;
+		color: #c5c8cd !important;
+		background-color: transparent !important;
+	}
+	
+	.btn-yahoo:hover {
+		color: #fff !important;
+		background-color: #720e9e !important;
+		border-color: #720e9e !important;
+	}
+
+	.btn-yahoo:active {
+		color: #fff !important;
+		background-color: #5e0783 !important;
+		border-color: #5e0783 !important;
+	}
+
+/*****************************/
+/*  05. MEDIA QUERIES        */
+/*****************************/
+
+@media (min-width: 576px){		
+	.card-content {
+		padding: 2rem !important;
+	}
+}
+
+@media (min-width: 768px){
+	.card-content {
+		padding: 2rem !important;
+	}
+
+	.nm-mb-md-1 {
+		margin-bottom: 0rem !important;
+	}
+
+	.main-container {
+		padding-bottom: 5rem !important;
+		padding-top: 5rem !important;
+	}
+}
+
+@media (min-width: 992px){
+	.card-content {
+		padding: 5rem 1rem !important;
+	}
+}
+
+@media (min-width: 1200px){
+	.card-content {
+		padding: 5rem 1.5rem !important;
+	}
+}
