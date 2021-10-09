@@ -1,0 +1,74 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/02/2020 17:37
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-facebook-logo:before { content: "\f100"; }
+.flaticon-twitter:before { content: "\f101"; }
+.flaticon-icon-733613:before { content: "\f102"; }
+.flaticon-linkedin:before { content: "\f103"; }
+.flaticon-envelope:before { content: "\f104"; }
+.flaticon-padlock:before { content: "\f105"; }
+.flaticon-user:before { content: "\f106"; }
+.flaticon-instagram:before { content: "\f107"; }
+.flaticon-youtube:before { content: "\f108"; }
+.flaticon-pinterest:before { content: "\f109"; }
+.flaticon-behance:before { content: "\f10a"; }
+.flaticon-add:before { content: "\f10b"; }
+.flaticon-dribble:before { content: "\f10c"; }
+.flaticon-next:before { content: "\f10d"; }
+.flaticon-left-arrow:before { content: "\f10e"; }
+.flaticon-search:before { content: "\f10f"; }
+.flaticon-eye:before { content: "\f110"; }
+    
+    $font-Flaticon-facebook-logo: "\f100";
+    $font-Flaticon-twitter: "\f101";
+    $font-Flaticon-icon-733613: "\f102";
+    $font-Flaticon-linkedin: "\f103";
+    $font-Flaticon-envelope: "\f104";
+    $font-Flaticon-padlock: "\f105";
+    $font-Flaticon-user: "\f106";
+    $font-Flaticon-instagram: "\f107";
+    $font-Flaticon-youtube: "\f108";
+    $font-Flaticon-pinterest: "\f109";
+    $font-Flaticon-behance: "\f10a";
+    $font-Flaticon-add: "\f10b";
+    $font-Flaticon-dribble: "\f10c";
+    $font-Flaticon-next: "\f10d";
+    $font-Flaticon-left-arrow: "\f10e";
+    $font-Flaticon-search: "\f10f";
+    $font-Flaticon-eye: "\f110";
