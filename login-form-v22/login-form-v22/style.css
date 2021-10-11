@@ -1,0 +1,86 @@
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+    
+    form {
+		border: 3px solid #f1f1f1;
+	}
+	/*assign full width inputs*/
+	
+	input[type=text],
+	input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+        font-weight: bold;
+		box-sizing: border-box;
+	}
+	/*set a style for the buttons*/
+	
+	button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+	/* set a hover effect for the button*/
+	
+	button:hover {
+		opacity: 0.8;
+	}
+	/*set extra style for the cancel button*/
+	
+	.cancelbtn {
+		width: auto;
+		padding: 10px 18px;
+		background-color: #f44336;
+	}
+	/*centre the display image inside the container*/
+	
+	.imgcontainer {
+		text-align: center;
+		margin: 24px 0 12px 0;
+	}
+	/*set image properties*/
+	
+	img.avatar {
+		width: 40%;
+		border-radius: 50%;
+	}
+	/*set padding to the container*/
+	
+	.container {
+		padding: 16px;
+        color: azure;
+        font-weight: bold;
+        font-size: large;
+	}
+	/*set the forgot password text*/
+	
+	span.psw {
+		float: right;
+		padding-top: 16px;
+	}
+	/*set styles for span and cancel button on small screens*/
+	
+	@media screen and (max-width: 300px) {
+		span.psw {
+			display: block;
+			float: none;
+		}
+		.cancelbtn {
+			width: 100%;
+		}
+	}
