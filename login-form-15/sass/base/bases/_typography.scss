@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.7;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #646464;
+    background-color: #fff;
+}
+
+p {
+    margin: 0 0 20px 0;
+    color: #646464;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 20px 0;
+    color: #111;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 36px;
+
+    @media only screen and (max-width: 1199px) {
+        font-size: 34px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        font-size: 32px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        font-size: 30px;
+    }
+}
+
+h2 {
+    font-size: 28px;
+
+    @media only screen and (max-width: 1199px) {
+        font-size: 26px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        font-size: 22px;
+    }
+}
+
+h3 {
+    font-size: 22px;
+
+    @media only screen and (max-width: 991px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+
+    @media only screen and (max-width: 991px) {
+        font-size: 18px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+h5 {
+    font-size: 18px;
+
+    @media only screen and (max-width: 991px) {
+        font-size: 16px;
+    }
+}
