@@ -40,7 +40,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
 | login-form-v17  |  <img src="login-form-v17/desktop_screenshot.PNG" width="480" >  | <img src="login-form-v17/mobile_screenshot.PNG" height="200" width="100" > |   [@satyam73](https://github.com/satyam73)               |
 
-| login-form-v22  |  <img src="https://ibb.co/pxgg9qm" width="480" >  | <img src="https://ibb.co/pxgg9qm" height="200" width="100" > |   [@Vanshikagoel0012](https://github.com/Vanshikagoel0012)               |
+| login-form-v22  |  <img src="https://www.linkpicture.com/view.php?img=LPic616447f6891df1451880077" width="480" >  | <img src="https://www.linkpicture.com/view.php?img=LPic616447f6891df1451880077" height="200" width="100" > |   [@Vanshikagoel0012](https://github.com/Vanshikagoel0012)               |
 ## CONTRIBUTION
 
 - For contribution please check [contribution guideline](https://github.com/LoginRadius/awesome-login-pages/blob/main/CONTRIBUTING.md)
