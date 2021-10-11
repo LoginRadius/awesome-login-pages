@@ -57,7 +57,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v21 | <img src="login-form-v21/desktop_screenshot.png" width="480" >    | <img src="login-form-v21/mobile_screenshot.png" height="200" width="100" >   |  [@subham5230](https://github.com/subham5230) |
 | login-form-v22  |  <img src="login-form-v22\login-form-v22\desktop-view.png" width="480" >  | <img src="login-form-v22\login-form-v22\mobile-view.png" height="200" width="100" > |   [@noviicee](https://github.com/noviicee)               |
 
-| login-form-v27  |  <img src="login-form-v27\screenshot desktop.JPG" width="480" >  | <img src="login-form-v27\screenshot mobile.JPGg" height="200" width="100" > |   [@abhinav-193](https://github.com/abhinav-193)               |
+| login-form-v27  |  <img src="login-form-v27\screenshot desktop.JPG" width="480" >  | <img src="login-form-v27\screenshot mobile.JPGg" height="200" width="100" >| [@abhinav-193](https://github.com/abhinav-193) |
 
 ## CONTRIBUTION
 
