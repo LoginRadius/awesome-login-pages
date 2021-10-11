@@ -22,10 +22,10 @@ A Project which includes curated list of different login page web pages.
 
 | login-form-14  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-14/login-form-14/screenshot.gif" width="480" >   | | [@tirtharajsinha](https://github.com/tirtharajsinha)  |
 
-| login-form-15  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-15/login-form-15/screenshot.png " width="480" >   || [@MaramHarsha](https://github.com/MaramHarsha)
+| login-form-15  | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-15/login-form-15/screenshot.png " width="480" >   || [@MaramHarsha](https://github.com/MaramHarsha)  |
 
 
-| login-form-18  | <img src="login-form-18/Screenshot_1.png" width="480" >   | <img src="login-form-18\Screenshot_2.png" height="200" width="100" > || [@highflyer910](https://github.com/highflyer910)
+| login-form-18  | <img src="login-form-18/Screenshot_1.png" width="480" >   | <img src="login-form-18\Screenshot_2.png" height="200" width="100" > || [@highflyer910](https://github.com/highflyer910)  |
 
 | login-form-20  | <img src="login-form-20/screenshot desktop view.png" width="480" >   | <img src="login-form-20/screenshot mobile view.png" height="200" width="100" > | [@kambojshalabh35](https://github.com/kambojshalabh35)  |
 
