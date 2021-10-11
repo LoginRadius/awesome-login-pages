@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+main h2{
+    font-size: 28px;
+    position: fixed;
+    top: 5%;
+    transform:translateY(-5%);
+    left: 1.1%; 
+    color:white;
+}
+
+main section{
+    position: fixed;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 10%; 
+    color:white;
+}
+
+section h1{
+    font-size: 120px;
+    color:white;
+    font-weight: 900;
+}
+section h1 span{
+    opacity: 0;
+    animation: fade 2s ease-in forwards;
+}
+section h1 span:nth-of-type(1){
+    animation-delay: 1s;
+}
+section h1 span:nth-of-type(2){
+    animation-delay: 1.5s;
+}
+section h1 span:nth-of-type(3){
+    animation-delay: 2s;
+}
+@keyframes fade{
+    to {
+        opacity: 1;
+    }
+}
+section #form{
+    padding-top: 20px;
+    display:block;
+    box-sizing: border-box;
+    font-size: 24px;
+    color:white;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation:slideLeft 3s ease-out 1.5s forwards;
+}
+
+@keyframes slideLeft{
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+button{
+    border: 1px solid white;
+    outline: none;
+    margin-top:50px;
+    padding: 20px 60px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    background-color:#4c59a8;
+    font-weight: 900;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: btn 1s ease-out 2s forwards;
+}
+@keyframes btn{
+    to {
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+main img:nth-child(4){
+    display: none;
+}
+
+@media (max-width:990px){
+    main img:nth-child(4){
+        display: block;
+    }
+    main img:nth-child(3){
+        display: none;
+    }
+    section h1{
+        font-size: 70px;
+        color:white;
+        font-weight: 900;
+    }
+    img{
+        height: 100vh;
+    }
+}
+
+input{
+    width: 300px;
+    height: 4.5vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: 0.7;
+    font-size: 16px;
+    color:black;
+    padding: 4px;
+}
+
+main h4{
+   color: #575865;
+}
+
+a{
+    text-decoration: none;
+}
