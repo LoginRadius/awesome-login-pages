@@ -1,0 +1,209 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+box-sizing: border-box;
+overflow: hidden;
+}
+.border-class-2 {
+border: 3px solid var(--eerie-black);
+}
+.inter-bold-concrete-105px {
+color: var(--concrete);
+font-family: "Inter-SemiBold", Helvetica, Arial, serif;
+font-size: 105px;
+font-style: normal;
+font-weight: 700;
+}
+.inter-bold-razzmatazz-36px {
+color: var(--razzmatazz);
+font-family: "Inter-Bold", Helvetica, Arial, serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+}
+.login {
+background-color: var(--eerie-black);
+height: 100vh;
+margin: 0px;
+min-height: 1080px;
+min-width: 1920px;
+overflow: hidden;
+position: relative;
+width: 100%;
+}
+.login .arrow-1 {
+background-color: transparent;
+height: 38px;
+left: 7px;
+position: absolute;
+top: 36px;
+width: 92px;
+}
+.login .group-4 {
+background-color: transparent;
+background-image: url(https://anima-uploads.s3.amazonaws.com/projects/5fd51c4941eaa3eee13788dd/releases/5fd51c5632acc12df39af48f/img/ellipse-9@2x.svg);
+background-size: 100% 100%;
+height: 102px;
+left: 1198px;
+position: absolute;
+top: 778px;
+width: 102px;
+}
+.login .id-4144 {
+background-color: transparent;
+border: 0;
+height: 4.72%;
+left: 0px;
+letter-spacing: 0px;
+padding: 0;
+position: relative;
+resize: none;
+text-align: left;
+top: 0px;
+width: 15.16%;
+}
+.login .id-4144::placeholder {
+color: rgba(242, 242, 247, 0.39);
+}
+.login .input {
+background-color: transparent;
+border: 0;
+height: 51px;
+left: 652px;
+padding: 0;
+position: absolute;
+resize: none;
+top: 513px;
+width: 291px;
+}
+.login .login-2960 {
+background-color: transparent;
+height: 100px;
+left: 816px;
+letter-spacing: 0px;
+position: absolute;
+text-align: center;
+top: 103px;
+width: 289px;
+}
+.login .password-2415 {
+background-color: transparent;
+border: 0;
+height: 4.72%;
+left: 33.75%;
+letter-spacing: 0px;
+padding: 0;
+position: absolute;
+resize: none;
+text-align: left;
+top: 60.74%;
+width: 15.16%;
+}
+.login .password-2416 {
+  background-color: transparent;
+  border: 0;
+  height: 4.72%;
+  left: 33.75%;
+  letter-spacing: 0px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 47.74%;
+  width: 15.16%;
+}
+.login .password-2415::placeholder {
+color: rgba(242, 242, 247, 0.39);
+}
+.login .password-2416::placeholder {
+  color: rgba(242, 242, 247, 0.39);
+}
+.login .rectangle-32 {
+background-color: var(--concrete);
+height: 0.93%;
+left: 43.91%;
+position: absolute;
+top: 26.67%;
+width: 12.19%;
+}
+.login .rectangle-33-C61RwL {
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+box-shadow: 0px 0px 0px rgba(248, 7, 89, 1);
+height: 9.72%;
+left: 32.29%;
+position: absolute;
+top: 44.44%;
+width: 35.36%;
+opacity: 20%;
+}
+.login .rectangle-33-VMr6Om {
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+box-shadow: 0px 0px 0px rgba(248, 7, 89, 1);
+height: 9.72%;
+left: 32.34%;
+position: absolute;
+top: 58.24%;
+width: 35.36%;
+opacity: 20%;
+}
+.login .rectangle-34 {
+background-color: var(--eerie-black);
+height: 39px;
+left: 638px;
+position: absolute;
+top: 467px;
+width: 190px;
+}
+.login .username-23815 {
+background-color: transparent;
+height: 4.72%;
+left: 33.33%;
+letter-spacing: 0px;
+position: absolute;
+text-align: left;
+top: 42.13%;
+width: 15.16%;
+}
+.login .vector {
+background-color: transparent;
+height: 100%;
+left: 0px;
+position: absolute;
+top: 0px;
+width: 100%;
+}
+.ubuntu-bold-concrete-36px {
+color: var(--concrete-2);
+font-family: "Ubuntu-Bold", Helvetica, Arial, serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+}
+:root {
+--concrete: rgba(242, 242, 247, 1);
+--concrete-2: rgba(242, 242, 247, 0.65);
+--eerie-black: rgba(28, 28, 30, 1);
+--razzmatazz: rgba(248, 7, 89, 1);
+}
+.button1 {
+background-color: transparent;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 0px 0px;
+cursor: pointer;
+}
+.valign-text-middle {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+a {
+text-decoration: none;
+display: contents;
+}
