@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+body {
+    background: #ECF0F3;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    width: 28rem;
+    height: 28rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #ECF0F3;
+    -webkit-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.9), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.9), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+    border-radius: 2rem;
+}
+
+.card-body {
+    width: 25rem;
+    height: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #ECF0F3;
+    -webkit-box-shadow: -5px 5px 10px rgba(209, 217, 230, 0.2), 5px -5px 10px rgba(209, 217, 230, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5);
+    box-shadow: -5px 5px 10px rgba(209, 217, 230, 0.2), 5px -5px 10px rgba(209, 217, 230, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5);
+    border-radius: 1rem;
+}
+
+h2 {
+    font-family: kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #728AB7;
+    text-shadow: 5px -5px 10px rgba(209, 217, 230, 0.2), 5px 5px 13px rgba(209, 217, 230, 0.9), -5px -5px 10px rgba(255, 255, 255, 0.9);
+}
+
+a {
+    color: transparent;
+}
+
+p {
+    font-family: kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #596E95;
+    text-shadow: 5px -5px 10px rgba(209, 217, 230, 0.2), 5px 5px 13px rgba(209, 217, 230, 0.9), -5px -5px 10px rgba(255, 255, 255, 0.9), 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+button {
+    height: 3.5rem;
+    width: 20rem;
+    background: #ECF0F3;
+    -webkit-box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2);
+    border-radius: 1rem;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+button:focus {
+    -webkit-box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+}
+
+.input-box {
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background: #ECF0F3;
+    -webkit-box-shadow: -5px 5px 10px rgba(209, 217, 230, 0.2), 5px -5px 10px rgba(209, 217, 230, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5);
+    box-shadow: -5px 5px 10px rgba(209, 217, 230, 0.2), 5px -5px 10px rgba(209, 217, 230, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 217, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 217, 230, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+input {
+    width: 19rem;
+    background: #ECF0F3;
+    -webkit-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.9), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(209, 217, 230, 0.5), inset -5px 5px 10px rgba(209, 217, 230, 0.2), inset 5px -5px 10px rgba(209, 217, 230, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.9), inset 5px 5px 13px rgba(209, 217, 230, 0.9);
+    border: none;
+    font-family: kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #596E95;
+    text-shadow: 5px -5px 10px rgba(209, 217, 230, 0.2), 5px 5px 13px rgba(209, 217, 230, 0.9), -5px -5px 10px rgba(255, 255, 255, 0.9), 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+input:focus {
+    outline: none;
+}
+
+.grid-2-1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+    grid-template-columns: repeat(2, auto);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .card {
+        width: 18rem;
+    }
+    .card-body {
+        width: 15rem;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+    button {
+        width: 10rem;
+    }
+    .input-box {
+        width: 10rem;
+        height: 2rem;
+    }
+    input {
+        width: 9rem;
+        font-size: 12px;
+    }
+}
