@@ -56,7 +56,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v20 | <img src="login-form-v20/login-form-v20-web.png" width="480" > | <img src="login-form-v20\login-form-v20-mobile.png" height="200" width="100" >| [@soumyajit4419](https://github.com/soumyajit4419) |
 | login-form-v21 | <img src="login-form-v21/desktop_screenshot.png" width="480" >    | <img src="login-form-v21/mobile_screenshot.png" height="200" width="100" >   |  [@subham5230](https://github.com/subham5230) |
 | login-form-v22  |  <img src="login-form-v22\login-form-v22\desktop-view.png" width="480" >  | <img src="login-form-v22\login-form-v22\mobile-view.png" height="200" width="100" > |   [@noviicee](https://github.com/noviicee)               |
-| login-form-v32 | <img src="login-form-v32\login-form-v32\Screenshots\screenshot-desktop.png" width="480" >   | <img src="login-form-v32\login-form-v32\Screenshots\screenshot-mobile.png" height="200" width="100" > || [@Bipul-Harsh](https://github.com/Bipul-Harsh) 
+| login-form-v32 | <img src="login-form-v32\Screenshots\screenshot-desktop.png" width="480" >   | <img src="login-form-v32\Screenshots\screenshot-mobile.png" height="200" width="100" > || [@Bipul-Harsh](https://github.com/Bipul-Harsh) 
 
 ## CONTRIBUTION
 
