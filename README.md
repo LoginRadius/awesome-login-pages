@@ -30,7 +30,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-24  | <img src="login-form-24/login-form-24.jpg" width="480" >   | <img src="login-form-24/login-form-mobile.png" height="200" width="100" >   | [@idivyanshbansal](https://github.com/idivyanshbansal) |
 | login-form-25  | <img src="login-form-25/Screenshot (215).png" width="480" >  | <img src="login-form-25\Screenshot (217).png" height="200" width="100" > | [@PuneethKShetty](https://github.com/PuneethKShetty) 
 | login-page-1 | <img src="/login-page-1/screenshot.jpg" width="480" > || [@Swatigupta-droid](https://github.com/Swatigupta-droid) |
-| login-form-ver2 | <img src="login-form-ver2/screenshot.png" width="480" > || [@RashmiShukla07](https://github.com/RashmiShukla07)|
+| login-form-ver2 | <img src="login-form-ver2/screenshot.png" width="480" > |<img src="login-form-ver2/mobile.png"  height="200" width="100" >| [@RashmiShukla07](https://github.com/RashmiShukla07)|
 | login-page-ver03 | <img src="/login-page-ver03/screenshot.png" width="480" >   |<img src="/login-page-ver03/screenshotmobile.png" height="200" width="100" > | [@AwsmNinad25](https://github.com/AwsmNinad25) |
 | login-form-pawar-adesh | <img src="login-form-pawar-adesh/screenshot_pc.JPG" width="480" >    | <img src="login-form-pawar-adesh/screenshot_mobile.JPG" height="200" width="100" >   |  [@adesh.pawar](https://github.com/pawar-adesh) |
 | Signin/Signup  | <img src="https://github.com/HarnishSavsani/awesome-login-pages/blob/main/Animated%20Login/display/loginradius.gif" width="480" >    | <img src="https://github.com/HarnishSavsani/awesome-login-pages/blob/main/Animated%20Login/display/login%20redius.JPG" height="200" width="100" >   |  [@HarnishSavsani](https://github.com/HarnishSavsani) 
