@@ -1,15 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fff; }
+   background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); }
 
 p {
-  color: #b3b3b3;
+  color: #fff;
   font-weight: 300; }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Roboto", sans-serif; }
-
+h3{
+  color: #007bff;
+}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -51,7 +54,7 @@ h2 {
       font-size: 12px;
       display: block;
       margin-bottom: 0;
-      color: #b3b3b3; }
+      color: #fff; }
   .half .contents .form-control, .half .bg .form-control {
     border: none;
     padding: 0;
@@ -67,7 +70,7 @@ h2 {
   background-position: center; }
 
 .half a {
-  color: #888;
+  color: #fff;
   text-decoration: underline; }
 
 .half .btn {
@@ -76,7 +79,6 @@ h2 {
   padding-right: 30px; }
 
 .half .forgot-pass {
-  position: relative;
   top: 2px;
   font-size: 14px; }
 
