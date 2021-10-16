@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.page {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 400px;
+}
+
+.form {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    margin: auto;
+    width: 400px;
+    position: absolute;
+    top: 50% !important;
+    left: 50%;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.form h1 {
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.form .input-box {
+    position: relative;
+}
+
+.form .input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #03a9f4;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+}
+
+.form .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+
+.form input[type= "submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: #03a9f4;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
