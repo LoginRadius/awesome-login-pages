@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --normal-font: 1.3em;
+  --header-font: 1.7em;
+  --mobile-normal-font: 1em;
+  --button-padding: 0.5em;
+  --input-padding: 0.5em 1em;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: #5805ed;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-login-form {
+  background: #5805ed;
+  box-shadow: -20px -20px 40px rgba(255, 255, 255, 0.2),
+    20px 20px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+  padding: 2em 3em;
+}
+
+.login-form-label {
+  text-align: center;
+  font-size: var(--header-font);
+}
+
+/* form styles */
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.username-input,
+.password-input {
+  background: #5805ed;
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: var(--input-padding);
+  font-size: var(--normal-font);
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: white;
+}
+
+.username-input::placeholder,
+.password-input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.username-input:focus,
+.password-input:focus {
+  border: 2px solid rgba(255, 255, 255, 0.327);
+}
+
+.login-button {
+  margin-top: 1em !important;
+  border-radius: 30px !important;
+}
+
+.login-button::before,
+.google-login-button::before {
+  clip-path: inset(0 100% 0 0);
+  background: white;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.login-button:hover::before,
+.google-login-button:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+.login-button:hover,
+.google-login-button:hover {
+  color: #3c0793;
+}
+
+.login-button::before {
+  border-radius: 30px !important;
+}
+
+.login-button,
+.google-login-button {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: var(--normal-font);
+  padding: var(--button-padding);
+  background: #3c0793;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25),
+    -5px -5px 10px rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+  transform: perspective(1px) translateZ(0);
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+/* or styles */
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1em 0;
+}
+.line {
+  height: 0.1em;
+  width: 10em;
+  background: white;
+}
+
+.google-login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.google-login-button::before {
+  border-radius: 10px !important;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+  .main-login-form {
+    padding: 2em 1em;
+  }
+
+  .line {
+    width: 7em;
+  }
+  .username-input,
+  .password-input,
+  .login-button,
+  .google-login-button {
+    font-size: var(--mobile-normal-font);
+  }
+}
