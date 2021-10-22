@@ -1,0 +1,664 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*-- start editing from here --*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*-- end reset --*/
+/*--main-content-starts-here--*/
+body {
+	font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    background:#fff;
+	background-size: cover;
+	background: url(../images/banner1.jpg)no-repeat 0px 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+
+}
+.main-agileits {
+    width: 30%;
+    margin: 0 auto;
+}
+.form-w3-agile h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 2px;
+}
+.form-w3-agile {
+    background: rgba(4, 4, 4, 0.56);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 60px 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0;
+    color: #ffffff;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.icon-w3 i {
+    color: #ffffff;
+    font-size: 16px;
+}
+.icon-w3 {
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    bottom: 43px;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+.form-sub-w3{
+	position:relative;
+}
+.form-sub-w3 input[type="text"],input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-sub-w3 input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+input[type="submit"] {
+    background: #fff;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+input[type="submit"]:hover{
+    background: #df5799;
+	color:#ffffff;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+.p-bottom-w3ls {
+    font-size: 13px;
+    color: #eee;
+    margin-top: 1em;
+    text-align: center;
+	text-transform: none;
+}
+.p-bottom-w3ls a{
+    color: #df5799;
+	outline:none;
+	text-decoration:none;
+}
+/*--main-content-ends-here--*/
+/*--register-form--*/
+.contact-w3-agileits h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 2px;
+}
+.contact-form1 {
+    padding: 60px 40px; 
+    background: #444;
+}
+#small-dialog, #small-dialog1, #small-dialog2 {
+    max-width: 541px;
+}
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: .9;
+}
+.contact-w3-agileits input[type="text"],input[type="email"],input[type="password"]{
+	 outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #0b0b0b;
+    -webkit-appearance: none;
+    margin-bottom: 20px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-sub-w3ls{
+	position:relative;
+}
+.icon-agile{
+	display: inline-block;
+    position: absolute;
+    right: 12px;
+    bottom: 35px;
+}
+.icon-agile i{
+	color: #ffffff;
+    font-size: 16px;
+}
+label.checkbox {
+    display: block;
+    margin: 15px 0px 0px 3px;
+    text-align: left;
+}
+label p {
+        color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+/*--//register-form--*/
+
+@media(max-width:1680px){
+	
+}
+@media(max-width:1440px){
+	h1 {
+		font-size: 30px;
+		margin: 40px 0;
+		word-spacing: 3px;
+	}
+	.main-agileits {
+		width: 37%;
+	}
+	
+}
+@media(max-width:1366px){
+	.contact-form1 {
+		padding: 50px 35px;
+		background: #444;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 88%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 88%;
+	}
+	.contact-w3-agileits input[type="text"], input[type="email"], input[type="password"] {
+		width: 89%;
+	}
+	.contact-w3-agileits h3 {
+		margin-bottom: 1.5em;
+	}
+}
+@media(max-width:1280px){
+	h1 {
+		font-size: 27px;
+		margin: 35px 0;
+		letter-spacing: 3px;
+	}
+	.form-w3-agile h2 {
+		font-size: 19px;
+		margin-bottom: 1.5em;
+	}
+	input[type="submit"] {
+		margin-top: 45px;
+	}
+	.p-bottom-w3ls {
+		margin-top: 0.8em;
+	}
+	.main-agileits {
+		width: 39%;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 520px;
+	}
+	.contact-w3-agileits h3 {
+		font-size: 19px;
+	}
+}
+@media(max-width:1080px){
+	.main-agileits {
+		width: 47%;
+	}
+}
+@media(max-width:1050px){
+	
+}
+
+@media(max-width:991px){
+	.form-sub-w3 input[type="text"] {
+		width: 87%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 87%;
+	}
+	
+}
+@media(max-width:900px){
+	.main-agileits {
+		width: 50%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 86%;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 86%;
+	}
+	input[type="submit"] {
+		padding: 8px 45px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+}
+@media(max-width:800px){
+	h1 {
+		font-size: 24px;
+		margin: 30px 0;
+	}
+	.form-w3-agile {
+		padding: 47px 35px;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 84%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 84%;
+	}
+	.form-sub-w3 input[type="text"], input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.form-w3-agile h2 {
+		font-size: 17.5px;
+	}
+	
+	.contact-w3-agileits h3 {
+		font-size: 17.5px;
+	}
+	.contact-form1 {
+		padding: 47px 35px;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 430px;
+	}
+	label.checkbox {
+		margin: 5px 0px 0px 3px;
+	}
+	input[type="submit"] {
+		padding: 7px 45px;
+	}
+	.contact-w3-agileits input[type="text"], input[type="email"], input[type="password"] {
+		width: 86%;
+	}
+}
+@media(max-width:768px){
+	h1 {
+		margin: 90px 0 55px;
+	}
+	.main-agileits {
+		width: 55%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 85.5%;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 85.5%;
+	}
+	
+	.icon-agile {
+		bottom: 38px;
+	}
+}
+@media(max-width:767px){
+	h1 {
+		margin: 35px;
+	}
+	.icon-w3 {
+		bottom: 40px;
+	}
+	
+	.form-sub-w3 input[type="text"] {
+		padding: 12px 40px 13px 10px;
+	}
+	.form-sub-w3 input[type="password"] {
+		padding: 12px 40px 13px 10px;
+	}
+	.p-bottom-w3ls {
+		margin-top: 0.5em;
+	}
+	.contact-w3-agileits input[type="text"] {
+		padding: 12px 40px 12px 10px;
+	}
+	.contact-w3-agileits input[type="email"] {
+		padding: 12px 40px 12px 10px;
+	}
+	.contact-w3-agileits input[type="password"] {
+		padding: 12px 40px 12px 10px;
+	}
+}
+@media(max-width:736px){
+	.main-agileits {
+		width: 58%;
+	}
+	.form-w3-agile h2 {
+		font-size: 17px;
+	}
+	.contact-w3-agileits h3 {
+		font-size: 17px;
+	}
+}
+@media(max-width:667px){
+	.main-agileits {
+		width: 62%;
+	}
+	h1 {
+		margin: 37px;
+		font-size: 23px;
+		letter-spacing: 2.5px;
+		word-spacing: 2px;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 420px;
+	}
+	.contact-form1 {
+		padding: 40px 30px;
+	}
+}
+@media(max-width:640px){
+	.main-agileits {
+		width: 65%;
+	}
+	.form-w3-agile {
+		padding: 40px 35px;
+	}
+	h1 {
+		margin: 35px 0;
+	}
+	
+	.contact-w3-agileits input[type="text"]{
+		margin-bottom: 15px;	
+	}
+	 .contact-w3-agileits input[type="email"] {
+		margin-bottom: 15px;
+	}
+	.contact-w3-agileits input[type="password"] {
+		margin-bottom: 15px;
+	}
+	.icon-agile {
+		bottom: 27px;
+	}
+}
+@media(max-width:600px){
+	.main-agileits {
+		width: 68%;
+	}
+}
+@media(max-width:568px){
+	h1 {
+		font-size: 20px;
+		letter-spacing: 2px;
+		word-spacing: 1px;
+	}
+	
+	.form-w3-agile h2 {
+		font-size: 16px;
+	}
+	.contact-w3-agileits h3 {
+		font-size: 16px;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 403px;
+	}
+	input[type="submit"] {
+		padding: 6px 40px;
+		font-size: 13px;
+	}
+	.main-agileits {
+		width: 72%;
+	}
+}
+@media(max-width:480px){
+	.main-agileits {
+		width: 78%;
+	}
+	.form-sub-w3 input[type="text"] {
+		font-size:14px;
+	}
+	.form-sub-w3 input[type="password"] {
+		font-size:14px;
+	}
+	.form-w3-agile {
+		padding: 40px 30px;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 84%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 84%;
+	}
+	h1 {
+		margin: 37px 0;
+	}
+	
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 395px;
+	}
+	.icon-agile {
+		right: 6px;
+	}
+	.contact-w3-agileits input[type="text"]{
+		font-size:14px;	
+	}
+	 .contact-w3-agileits input[type="email"] {
+		font-size:14px;	
+	}
+	.contact-w3-agileits input[type="password"] {
+		font-size:14px;	
+	}
+	.icon-agile i {
+		font-size: 15px;
+	}
+	.icon-w3 i {
+		font-size: 15px;
+	}
+}
+@media(max-width:414px){
+	.main-agileits {
+		width: 83%;
+	}
+	.form-sub-w3 input[type="text"] {
+		width: 82%;
+	}
+	.form-sub-w3 input[type="password"] {
+		width: 82%;
+	}
+	.form-w3-agile h2 {
+		font-size: 15px;
+	}
+	.contact-w3-agileits h3 {
+		font-size: 15px;
+	}
+	
+	.icon-w3 {
+		bottom: 38px;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 355px;
+	}
+	.contact-form1 {
+		padding: 40px 28px;
+	}
+	.contact-w3-agileits input[type="text"]{
+		 width: 84%;
+	}
+	 .contact-w3-agileits input[type="email"] {
+		 width: 84%;	
+	}
+	.contact-w3-agileits input[type="password"] {
+		 width: 84%;	
+	}
+}
+@media(max-width:384px){
+	.main-agileits {
+		width: 89%;
+	}
+	
+	h1 {
+		margin: 35px 0;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 345px;
+	}
+	.contact-w3-agileits input[type="text"] {
+		width: 83%;
+	}
+	.contact-w3-agileits input[type="password"] {
+		width: 83%;
+	}
+	.contact-w3-agileits input[type="email"] {
+		width: 83%;
+	}
+}
+@media(max-width:375px){
+	h1 {
+		font-size: 19px;
+	}
+	#small-dialog, #small-dialog1, #small-dialog2 {
+		max-width: 335px;
+	}
+	.contact-w3-agileits input[type="text"] {
+		width: 82%;
+	}
+	.contact-w3-agileits input[type="password"] {
+		width: 82%;
+	}
+	.contact-w3-agileits input[type="email"] {
+		width: 82%;
+	}
+	.icon-agile {
+		right: 10px;
+	}
+}
+@media(max-width:320px){
+	h1 {
+		font-size: 17px;
+		margin: 28px 0;
+		letter-spacing: 1.5px;
+		word-spacing: .5px;
+	}
+	.main-agileits {
+		width: 94%;
+	}
+	.form-w3-agile {
+		padding: 30px 23px;
+	}
+	.form-sub-w3 input[type="text"] {
+		padding: 10px 34px 10px 6px;
+		margin-bottom: 15px;
+		    font-size: 13px;
+	}
+	.form-sub-w3 input[type="password"] {
+		padding: 10px 34px 10px 6px;
+		margin-bottom: 15px;
+		    font-size: 13px;
+	}
+	.p-bottom-w3ls {
+		font-size: 12px;
+	}
+	input[type="submit"] {
+		margin-top: 40px;
+	}
+	.form-w3-agile h2 {
+		font-size: 14px;
+		margin-bottom: 1em;
+	}
+	.icon-w3 {
+		bottom: 25px;
+	}
+	
+	.icon-w3 i {
+		font-size: 14px;
+	}
+	input[type="submit"] {
+		padding: 5px 35px;
+		font-size: 12px;
+	}
+	.contact-form1 {
+		padding: 35px 20px;
+	}
+	.contact-w3-agileits input[type="text"] {
+		padding: 10px 34px 9px 10px;
+		font-size:13px;
+		margin-bottom: 13px;
+	}
+	.contact-w3-agileits input[type="password"] {
+		padding: 10px 34px 9px 10px;
+		font-size:13px;
+		margin-bottom: 13px;
+	}
+	.contact-w3-agileits input[type="email"] {
+		padding: 10px 34px 9px 10px;
+		font-size:13px;
+		margin-bottom: 13px;
+	}
+	.icon-agile i {
+		font-size: 14px;
+	}
+	.contact-w3-agileits h3 {
+		font-size: 14px;
+		margin-bottom: 1em;
+	}
+	.icon-agile {
+		bottom: 22px;
+	}
+}
+/*--responsive-design-ends-here--*/

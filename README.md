@@ -30,12 +30,15 @@ A Project which includes curated list of different login page web pages.
 | login-form-24  | <img src="login-form-24/login-form-24.jpg" width="480" >   | <img src="login-form-24/login-form-mobile.png" height="200" width="100" >   | [@idivyanshbansal](https://github.com/idivyanshbansal) |
 | login-form-25  | <img src="login-form-25/Screenshot (215).png" width="480" >  | <img src="login-form-25\Screenshot (217).png" height="200" width="100" > | [@PuneethKShetty](https://github.com/PuneethKShetty) 
 | login-form-26  | <img src="login-form-26/desktop-version.png" width="480" >  | <img src="login-form-26\mobile-version.png" height="200" width="100" > | [@codeswithroh](https://github.com/codeswithroh) 
+| login-form-28  | <img src="login-form-28/Screenshot-1.png" width="480" >  | <img src="login-form-28\Screenshot-2.png" height="200" width="100" > | [@prathameshkurunkar7](https://github.com/prathameshkurunkar7) 
+| login-form-30  | <img src="login-form-30/screenshot desktop view.png" width="480" >   | <img src="login-form-30/screenshot mobile view.png" height="200" width="100" > | [@kambojshalabh35](https://github.com/kambojshalabh35)  |
 | login-page-1 | <img src="/login-page-1/screenshot.jpg" width="480" > || [@Swatigupta-droid](https://github.com/Swatigupta-droid) |
 | login-form-ver2 | <img src="login-form-ver2/screenshot.png" width="480" > || [@RashmiShukla07](https://github.com/RashmiShukla07)|
 | login-page-ver03 | <img src="/login-page-ver03/screenshot.png" width="480" >   |<img src="/login-page-ver03/screenshotmobile.png" height="200" width="100" > | [@AwsmNinad25](https://github.com/AwsmNinad25) |
 | login-form-pawar-adesh | <img src="login-form-pawar-adesh/screenshot_pc.JPG" width="480" >    | <img src="login-form-pawar-adesh/screenshot_mobile.JPG" height="200" width="100" >   |  [@adesh.pawar](https://github.com/pawar-adesh) |
 | Signin/Signup  | <img src="https://github.com/HarnishSavsani/awesome-login-pages/blob/main/Animated%20Login/display/loginradius.gif" width="480" >    | <img src="https://github.com/HarnishSavsani/awesome-login-pages/blob/main/Animated%20Login/display/login%20redius.JPG" height="200" width="100" >   |  [@HarnishSavsani](https://github.com/HarnishSavsani) 
 | login-form-djm | <img src="login-form-djm-1/Login-form-djm.png" width="480" >    | <img src="login-form-djm-1/Login-form-djm-mobile.png" height="200" width="100" >   |  [@djm-1](https://github.com/djm-1) |
+| login-form-disha-sharma-dev  |  <img src="login-form-disha-sharma-dev/screenshot.PNG" width="480" >  | <img src="login-form-disha-sharma-dev/screenshot_mobile.PNG" height="200" width="100" > |   [@dishasharma-dev](https://github.com/dishasharma-dev)               |
 | login-form-v1  | <img src="login-form-v1/login-form-v1/screenshot.png " width="480" >   |<img src="login-form-v1\login-form-v1\screenshotmobile.png" height="200" width="100" > | [@abhir9](https://github.com/abhir9)               |
 | login-form-v2  | <img src="login-form-v2/login-form-v2/screenshot.png " width="480" >   |<img src="login-form-v2\login-form-v2\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
 | login-form-v3  | <img src="login-form-v3/login-form-v3/screenshot.png " width="480" >   |<img src="login-form-v3\login-form-v3\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
@@ -75,6 +78,11 @@ A Project which includes curated list of different login page web pages.
  main
 
 | login-form-v23  |  <img src="login-form-v23\screenshot.png" width="480" >  | <img src="login-form-v23\mobile-view.png" height="200" width="100" > |   [@shutterberg](https://github.com/shutterberg)               |
+ Bushra109-patch-1
+ main
+
+| login-form-v27  |  <img src="login-form-v27/screenshot desktop.JPG" width="480" >  | <img src="login-form-v27/screenshot mobile.JPG" height="200" width="100" >| [@abhinav-193](https://github.com/abhinav-193) |
+| login-form-v31 | <img src="login-form-v31\screenshots\Screenshot-desktop.png" width="480" > | <img src="login-form-v31\screenshots\Screenshot-mobile.png" height="200" width="100" > | [@Sanket-Mathur](https://github.com/Sanket-Mathur)
  main
 
 ## CONTRIBUTION
