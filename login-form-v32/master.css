@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(235, 235, 235) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#login-window{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+    background-image: url('./images/background.jpg');
+}
+
+#login-box{
+    width:25%;
+    min-width: 340px !important;
+    box-shadow: 0px 0px 20px #d4d4d4;
+    padding:1rem;
+}
+
+.glassy-dark-bg{
+    background-color: rgba(0, 0, 0, 0.445) !important;
+}
+
+#logo{
+    display:flex;
+    justify-content:center;
+    margin:1rem 0;
+}
+
+.logo-font{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form{
+    margin:1rem 0;
+}
+
+.text-pale-light{
+    color: rgb(230, 230, 230) !important;
+}
+
+.full-opacity-bg{
+    background-color: transparent !important;
+}
+
+.rounded-custom{
+    border-radius: 20px !important;
+}
+
+.input{
+    padding:0.5rem;
+    width:100%;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    margin-top:8px
+}
+
+.rounded-custom-15{
+  border-radius: 15px !important;
+}
+
+.remember-section{
+    display:block;
+    min-height: 1.5rem;
+    margin:1rem 0;
+}
+
+.submit-btn{
+    width:100%;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background-color:#6c27db;
+    color: rgb(235, 235, 235) !important;
+}
+
+.submit-btn:hover{
+    background-color:#571fb1;
+}
