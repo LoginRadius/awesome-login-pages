@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Register Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-register">
+            <div class="nav-buttons">
+                <button id="loginBtn" class='active' >Login </button>
+                <button id="registerBtn">Register</button>
+            </div>
+            <div class="form-group">
+                <form action="" id="loginform">
+                    <label for="username">Email</label>
+                    <input type="email" id="username">
+                    <label for="password">password</label>
+                    <input type="text" id="password">
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+                <form action="" id="registerform">
+                    <label for="fullname">fullname</label>
+                    <input type="text" id="fullname">
+                    <label for="email">email</label>
+                    <input type="text" id="email">
+                    <label for="passwword">password</label>
+                    <input type="text" id="password">
+                    <label for="confirmpassword">confirm password</label>
+                    <input type="text" id="confirmpassword">
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+            </div>
+            <div id="forgot">
+                <a href="">forgot password?</a>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var loginBtn = document.getElementById("loginBtn");
+        var registerBtn = document.getElementById("registerBtn");
+        var loginform = document.getElementById("loginform");
+        var registerform = document.getElementById("registerform");
+        var forgot = document.getElementById("forgot");
+
+        registerBtn.onclick= function() {
+            registerform.style.left='0px';
+            registerform.style.opacity='1';
+            loginform.style.left='-500px';
+            loginform.style.opacity='0';
+            forgot.style.left='-500px';
+            forgot.style.opacity='0';
+            registerBtn.classList.add('active');
+            loginBtn.classList.remove('active');
+
+        }
+
+        loginBtn.onclick= function() {
+            loginform.style.left='0px';
+            loginform.style.opacity='1';
+            forgot.style.left='0px';
+            forgot.style.opacity='1';
+            registerform.style='500px';
+            loginBtn.classList.add('active');
+            registerBtn.classList.remove('active');
+            registerform.style.opacity='0';
+        }
+
+
+        
+    </script>
+</body>
+</html>

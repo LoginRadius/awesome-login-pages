@@ -1,0 +1,131 @@
+/*** Reset styles ***/
+html,body, body * { 
+    box-sizing: border-box; 
+    font-family: 'Noto Serif Display', serif;
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+ }
+ body {
+    background-color:#120078;
+    background-position:center center;
+    
+  }
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+  }
+
+  .login-register {
+      height: 560px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      padding:0 2em;
+      border-radius: 5px;
+      box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+      overflow: hidden; 
+      background: linear-gradient(180deg, rgba(65,4,119,1) 0%, rgba(22,147,198,1) 58%, rgba(255,255,255,0.1407913507199755) 82%);
+      color:#ffffff;
+  }
+
+  /* Nav Buttons  */
+  .nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 3em;
+  }
+  button {
+      font-size: 1.5em;
+      margin-right:1em;
+      border:0px;
+      cursor: pointer;
+   
+  }
+  button:focus {
+      outline: 0px;
+  }
+  button.active {
+      padding-bottom: 10px;
+      border-bottom: solid 2px #1059FF;
+  } 
+  /* footer: forgot section */
+   #forgot {
+        position: relative;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 24px;
+        margin-top: -300px; 
+        border-top: solid 1px rgba(255,255,255,.3);    
+    }
+
+    /* form styling */
+    .form-group input {
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background: rgba(255,255,255,.2);
+    }
+    .form-group label {
+      text-transform: uppercase;
+    }
+    input.submit {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1em;
+        text-align: center;
+        color: rgba(255,255,255, 1);
+        padding: 8px 0px;
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 23px;
+        background-color: rgba(16,89,255, 1);
+    
+    }
+
+    /* form positioning and animation */
+    form, #forgot { 
+        position: relative;
+        transition: all .5s ease;
+    }
+    #loginBtn, #registerBtn {
+        transition: all .5s ease;
+
+    }
+    form#loginform {
+    left:0px;
+    }
+ 
+    form#registerform {
+    left:500px;
+    top:-230px;
+    opacity: 0;;
+   } 
+   .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+   @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+    
+    
+
