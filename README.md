@@ -53,6 +53,16 @@ A Project which includes curated list of different login page web pages.
 | login-form-v12 | <img src="login-form-v12/login-form-v12/screenshot.png " width="480" > |<img src="login-form-v12\login-form-v12\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
 | login-form-v13 | <img src="login-form-v13\screenshot.png " width="480" > |<img src="login-form-v13\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
 | login-form-v14 | <img src="login-form-v14\screenshot.PNG" width="480" > |<img src="login-form-v14\screenshotmobile.png" height="200" width="100" >| [@herkura](https://github.com/herkura)  [@nshanbhag20001412](https://github.com/nshanbhag20001412)             |
+
+| login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > || [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
+| login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > || [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
+| login-form-v17  |  <img src="login-form-v17/desktop_screenshot.PNG" width="480" >  | <img src="login-form-v17/mobile_screenshot.PNG" height="200" width="100" > |   [@satyam73](https://github.com/satyam73)               |
+ 
+| login-form-v25 | <img src="https://raw.githubusercontent.com/LoginRadius/awesome-login-pages/main/login-form-v25/login-form-v25/Screenshot.png" width="480" >   |<img src="login-form-v25\login-form-v25\Screenshot_mobile.png" height="200" width="100" > || [@Shrijan21] (https://github.com/Shrijan21) ||
+
+| login-form-18  | <img src="login-form-18/Screenshot_1.png" width="480" >   | <img src="login-form-18\Screenshot_2.png" height="200" width="100" > || [@highflyer910](https://github.com/highflyer910) 
+
+ 
 | login-form-v15 | <img src="login-form-v15/Screenshot.png" width="480" > |<img src="login-form-v15/MobileScreenshot.png" height="200" width="100" >| [@shrish-sharma-git](https://github.com/shrish-sharma-git) |
 | login-form-v16 | <img src="login-form-v16/login-form-v16/screenshot.png" width="480" > |<img src="login-form-v16/login-form-v16/MobileScreenshot.png" height="200" width="100" >| [@imtiyazMohammed](https://github.com/imtiyazMohammed) |
 | login-form-v17 | <img src="login-form-v17/desktop_screenshot.PNG" width="480" >  | <img src="login-form-v17/mobile_screenshot.PNG" height="200" width="100" > |   [@satyam73](https://github.com/satyam73)               |
@@ -61,11 +71,16 @@ A Project which includes curated list of different login page web pages.
 | login-form-v20 | <img src="login-form-v20/login-form-v20-web.png" width="480" > | <img src="login-form-v20\login-form-v20-mobile.png" height="200" width="100" >| [@soumyajit4419](https://github.com/soumyajit4419) |
 | login-form-v21 | <img src="login-form-v21/desktop_screenshot.png" width="480" >    | <img src="login-form-v21/mobile_screenshot.png" height="200" width="100" >   |  [@subham5230](https://github.com/subham5230) |
 | login-form-v22  |  <img src="login-form-v22\login-form-v22\desktop-view.png" width="480" >  | <img src="login-form-v22\login-form-v22\mobile-view.png" height="200" width="100" > |   [@noviicee](https://github.com/noviicee)               |
+v25
+
+
+
 | login-form-v23  |  <img src="login-form-v23\screenshot.png" width="480" >  | <img src="login-form-v23\mobile-view.png" height="200" width="100" > |   [@shutterberg](https://github.com/shutterberg)               |
 | login-form-v27  |  <img src="login-form-v27/screenshot desktop.JPG" width="480" >  | <img src="login-form-v27/screenshot mobile.JPG" height="200" width="100" >| [@abhinav-193](https://github.com/abhinav-193) |
 | login-form-v31 | <img src="login-form-v31\screenshots\Screenshot-desktop.png" width="480" > | <img src="login-form-v31\screenshots\Screenshot-mobile.png" height="200" width="100" > | [@Sanket-Mathur](https://github.com/Sanket-Mathur)
 | login-form-v32 | <img src="login-form-v32\Screenshots\screenshot-desktop.png" width="480" >   | <img src="login-form-v32\Screenshots\screenshot-mobile.png" height="200" width="100" > | [@Bipul-Harsh](https://github.com/Bipul-Harsh) 
 | login-form-v33 | <img src="login-form-v33\screenshot.PNG" width="480" >   | <img src="login-form-v33\screenshot-mobile.PNG" height="200" width="100" > | [@vershagupta](https://github.com/vershagupta) 
+
 ## CONTRIBUTION
 
 - For contribution please check [contribution guideline](https://github.com/LoginRadius/awesome-login-pages/blob/main/CONTRIBUTING.md)
