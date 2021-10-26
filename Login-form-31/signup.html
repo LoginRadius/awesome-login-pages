@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c64fa9aba.js" crossorigin="anonymous"></script>
+    <title>Signup</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900);
+    
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        font-weight: bold;
+        font-family: 'Heebo', sans-serif;
+        background-color:black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    img{
+        width: 80%;
+    }
+    form{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color:#00AA5B ;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+    padding: 6%;
+    border-radius: 15px;
+    }
+    input{
+        width: 80%;
+        background-color: #00AA5B;
+        border-top: none;
+        border-right: none;
+        border-bottom: 0.1px solid black;
+        border-left: none;
+        font-size: 70%;
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    #burger{
+        position: absolute;
+        top: 3%;
+    }
+    input::placeholder{
+        font-size: 100%;
+        color: black;
+        font-weight: bold;
+        font-family: 'Heebo', sans-serif;
+    }
+    input:focus{
+        outline: none;
+    }
+    button{
+        padding: 1% 10% 1% 10%;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-family: 'Heebo', sans-serif;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 70%;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.03);
+    }
+    .na{
+        z-index: 100;
+    }
+/*------------------------------------------------------*/
+@media (min-width:280px) and (max-width:1024px){
+        body{
+            overflow: scroll;
+        }
+        form{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color:#00AA5B;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+        padding: 6%;
+        border-radius: 15px;
+    }
+    .na{
+        font-size: 50%;
+    }
+        }
+</style>
+<body>
+    <i id="burger" class="fas fa-bars" style="color: #00AA5B;"></i>
+    <div class="na">
+      <i class="fas fa-times" id="hide"></i>
+      <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="dumping.html">dumping ground</a></li>
+           <li><a href="shop.html">Shop</a></li>
+           <li><a href="contact.html">Contact</a></li>
+       </ul>
+   </div>
+    <div id="particles-js"></div>
+    <form action="" method="post">
+        <img src="logo.PNG" alt="">
+        <br>
+        <input type="text" placeholder="Name">
+        <br>
+        <input type="email" name="email" placeholder="Email" id="">
+        <br>
+        <input type="password" name="password" placeholder="password" id="">
+        <br>
+        <input type="tel" name="phone"  placeholder ="phone Number" id="">
+        <br>
+        <button type="submit">Join</button>
+    </form>
+    <script src="main.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
