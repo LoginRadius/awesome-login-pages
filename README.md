@@ -66,7 +66,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v31 | <img src="login-form-v31\screenshots\Screenshot-desktop.png" width="480" > | <img src="login-form-v31\screenshots\Screenshot-mobile.png" height="200" width="100" > | [@Sanket-Mathur](https://github.com/Sanket-Mathur)
 | login-form-v32 | <img src="login-form-v32\Screenshots\screenshot-desktop.png" width="480" >   | <img src="login-form-v32\Screenshots\screenshot-mobile.png" height="200" width="100" > | [@Bipul-Harsh](https://github.com/Bipul-Harsh) 
 | login-form-v33 | <img src="login-form-v33\screenshot.PNG" width="480" >   | <img src="login-form-v33\screenshot-mobile.PNG" height="200" width="100" > | [@vershagupta](https://github.com/vershagupta) 
-| login-form-31 | <img src="Login-form-31/Screenshot (321).png" width="480" >   | <img src="Login-form-31\Screenshot (322).png" height="200" width="100" > | [@anujb6](https://github.com/anujb6/anuj) 
+| login-form-31 | <img src="Login-form-31/Screenshot (321).png" width="480" >   | <img src="Login-form-31\Screenshot (322).png" height="200" width="200" > | [@anujb6](https://github.com/anujb6/anuj) 
 ## CONTRIBUTION
 
 - For contribution please check [contribution guideline](https://github.com/LoginRadius/awesome-login-pages/blob/main/CONTRIBUTING.md)
