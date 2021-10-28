@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:black;
+}
+/*--------------hero---------------*/
+video{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.contain{
+    position: absolute;
+    top: 38%;
+    left: 17%;
+}
+.contain h1{
+    font-size: 300%;
+    line-height: 70px;
+    padding-bottom: 2%;
+}
+.contain p{
+    font-size: 90%;
+ padding: 0 30% 2% 0;
+ letter-spacing: 1px;
+}
+.contain a{
+    padding: 1% 5.5%;
+    text-decoration: none;
+    color: white;
+    background-color:#00AA5B;
+    border-radius: 8px;
+    /*#FF902A*/
+}
+.contain a:focus{
+    outline: none;
+}
+.contain a:hover{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+#burger{
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    font-size: 130%;
+    cursor: pointer;
+    z-index: 100;
+}
+#burger:hover{
+    transform: scale(1.1);
+}
+.btn-hide{
+    visibility: hidden;
+}
+.na{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    height: 100vh;
+    background-color:#00AA5B;
+    padding: 2%;
+    font-size: 100%;
+    width: 20%;
+    text-align: center;
+    
+}
+#hide{
+    cursor: pointer;
+    margin-right: 90%;
+}
+#hide:hover{
+    transform: scale(1.1);
+}
+ul{
+    padding-top: 30%;
+}
+li{
+    list-style: none;
+
+}
+.na a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.na a:hover{
+    color:black;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.nav-hidden{
+    visibility: visible;
+
+}
+.logo{
+    position: absolute;
+    width: 25%;
+    z-index: 10;
+    cursor: pointer;
+}
+/*-------------------work-------------------*/
+.working{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 3% 0 0 0;
+    text-align: center;
+}
+.working h1{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.working hr{
+   margin-left: 43%;
+   margin-right: 43%;
+   border: 1px solid #00AA5B;
+   background-color: #00AA5B ;
+}
+.working p{
+    font-size: 100%;
+    padding: 2%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 5% 5% 5%;
+}
+.grid p{
+    padding:8% 3% 8% 3%;
+    font-size: 100%;
+}
+.grid i{
+    font-size: 200%;
+    color: #00AA5B;
+}
+#div{
+    height: 104%;
+    width: 70%;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    border-radius: 15px;
+    padding: 10% 1%;
+    margin-left: 10%;
+}
+#div p{
+    font-size: 60%;
+}
+.footer{
+    background-color: #00AA5B;
+    font-size: 60%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------CONTACT-FORM--------------------------------------------------------------------------------*/
