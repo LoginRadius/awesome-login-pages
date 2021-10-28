@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;900&display=swap');
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --spacing: 30px;
+    --font-size: 1.2rem;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/login-background.jpg");
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 6em;
+}
+
+form {
+    position: relative;
+    width: 500px;
+    padding: 50px;
+    font-family: var(--font);
+}
+form h2 {
+    margin-bottom: var(--spacing);
+    font-weight: 900;
+    font-size: 2rem;
+    color: #C74C87;
+}
+form .screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ddd;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+form input.read {
+    width: 100%;
+    margin-bottom: var(--spacing);
+    font-size: var(--font-size);
+    padding: 5px 0;
+    border: 0;
+    border-bottom: 2px solid;
+    background: transparent;
+}
+form input:focus {
+    outline: none;
+}
+form input[type="submit"] {
+    margin-top: var(--spacing);
+    width: 100%;
+    background-color: #4a2ff9;
+    color: white;
+    text-transform: uppercase;
+    font-size: var(--font-size);
+    font-weight: 600;
+    padding: 0.4em 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    form .screen {
+        visibility: hidden;
+    }
+}
