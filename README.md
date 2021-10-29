@@ -48,6 +48,8 @@ A Project which includes curated list of different login page web pages.
 | Responsive-animated-login-signup-form | <img src="Responsive-animated-login-signup-form/desktop_img.png" width="480" >   | <img src="Responsive-animated-login-signup-form/mobile_form.jpeg" height="200" width="100" > | [@AbhayD11](https://github.com/AbhayD11) 
 | login-form-mitanshu | <img src="login-form-mitanshu\_MACOSX\desktop_view.png" width="480" >   | <img src="login-form-mitanshu\_MACOSX\mobile_view.png" height="200" width="100" > | [@devmitanshu](https://github.com/devmitanshu) 
 | login-form-shiwali-pandey | <img src="login-form-shiwali-pandey\desktop-screenshot.jpg" width="480" >   | <img src="login-form-shiwali-pandey\mobile-screenshot.jpg" height="200" width="100" > | [@aj-shivali](https://github.com/aj-shivali)
+| login-form-amarjeetsinha | <img src="login-form-amarjeetsinha/desktop_view.png" width="480" >   | <img src="login-form-amarjeetsinha/mobile_view.png" height="200" width="100" > | [@amarjeetsinha](https://github.com/amarjeetsinha) 
+| login-form-naruto | <img src="login-form-naruto\Screenshot.PNG" width="480" >   | <img src="login-form-naruto\Mobile_Screenshot.PNG" height="200" width="100" > | [@VIPER](https://github.com/VIPERZzzz) 
 | login-form-v1  | <img src="login-form-v1/login-form-v1/screenshot.png " width="480" >   |<img src="login-form-v1\login-form-v1\screenshotmobile.png" height="200" width="100" > | [@abhir9](https://github.com/abhir9)               |
 | login-form-v2  | <img src="login-form-v2/login-form-v2/screenshot.png " width="480" >   |<img src="login-form-v2\login-form-v2\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
 | login-form-v3  | <img src="login-form-v3/login-form-v3/screenshot.png " width="480" >   |<img src="login-form-v3\login-form-v3\screenshotmobile.png" height="200" width="100" >| [@abhir9](https://github.com/abhir9)               |
@@ -78,7 +80,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v33 | <img src="login-form-v33\screenshot.PNG" width="480" >   | <img src="login-form-v33\screenshot-mobile.PNG" height="200" width="100" > | [@vershagupta](https://github.com/vershagupta)
 | login-form-v34 | <img src="login-form-v34\Screenshots\screenshot-desktop.png" width="480" >   | <img src="login-form-v34\Screenshots\screenshot-mobile.png" height="200" width="100" > | [@KrishRathod](https://github.com/KrishRathod)   
 | login-form-v35 | <img src="login-form-v35\screenshot.PNG" width="480" >   | <img src="login-form-v35\screenshot-mobile.PNG" height="200" width="100" > | [@vershagupta](https://github.com/vershagupta) 
-| login-form-naruto | <img src="login-form-naruto\Screenshot.PNG" width="480" >   | <img src="login-form-naruto\Mobile_Screenshot.PNG" height="200" width="100" > | [@VIPER](https://github.com/VIPERZzzz) 
+
 ## CONTRIBUTION
 
 - For contribution please check [contribution guideline](https://github.com/LoginRadius/awesome-login-pages/blob/main/CONTRIBUTING.md)
