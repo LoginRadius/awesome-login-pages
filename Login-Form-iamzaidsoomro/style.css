@@ -1,0 +1,35 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin: 0;
+    overflow: hidden;
+}
+.main-section{
+    width: 700px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 50px;
+    border-right: rgb(255, 102, 0) solid 2px;
+}
+button{
+    background:none;
+    border: rgb(68, 105, 206) solid 2px;
+}
+@media all and (max-width:750px) {
+    body{
+        background-image: url('bgmob.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-section{
+        width: 100%;
+        overflow: hidden;
+        border: none;
+        border-top: rgb(255, 102, 0) solid 2px;
+        margin: auto;
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }   
+}
