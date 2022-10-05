@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+	background-color:#3f51b5;
+	/* background: linear-gradient(rgba(243, 17, 17, 0.89) ,rgba(243, 17, 17, 0.24)),url(../media/bg-intro-desktop.png),50%.50%,no-repeat; */
+	background: cover;
+	height:100vh;
+	color: white;
+}
+form i{
+	background-color: #fafafa;
+	color: #d4d4d4;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15% 26%;
+	/* height:100%; */
+}
+
+.login_container{
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 0.8rem;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: center;
+}
+.column{
+	display: flex;
+	flex-flow: column;
+}
+.login_form h2{
+	font-size: 2rem;
+	text-align: center;
+	background-color: #5d54a3;
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+	margin-bottom: 1.4rem;
+	box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.26);
+}
+.bold{
+	font-weight: 700;
+}
+.form-container{
+	background-color: #ffff;
+	padding: 1.4rem;
+	border-radius: 8px;
+	box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.432),0 0.7rem 0.4rem rgba(0, 0, 0, 0.432);
+}
+
+/* .form{
+	width: 100%;
+} */
+.mail_set{
+	position: relative;
+}
+.mail_icon {
+	position: absolute;
+	top: 2rem;
+	left: 0.8rem;
+	font-size: 1.2rem;
+}
+.password_set{
+	position: relative;
+}
+.password_icon {
+	position: absolute;
+	top: 1.9rem;
+	left: 0.8rem;
+	font-size: 1.2rem;
+}
+.password_eye {
+	position: absolute;
+	top: 2rem;
+	right: 0.8rem;
+	font-size: 1.2rem;
+}
+.form input{
+	width: 100%;
+	display: inline-block;
+	margin: 0.7rem auto;
+	padding:1.4rem 2.5rem;
+	border-radius: 0.45rem;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+	box-sizing: border-box;
+}
+.form ::placeholder{
+	font-weight: 700;
+}
+.forget{
+	text-align: right;
+	padding: 0.2rem 0 0.5rem 0;
+}
+.forget a{
+	text-decoration: none;
+}
+.btn{
+	color: rgba(255, 255, 255, 0.808);
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	background-color: #37cc8a;
+	width: 100%;
+	padding: 1rem 2rem;
+	border-radius: 0.45rem;
+	margin-bottom: 1.4rem;
+	border: none;
+	box-shadow: 0 0.7rem 0.4rem rgba(0, 0, 0, 0.432);	
+}
+.term{
+	display: block;
+	text-align: center;
+	font-size: 0.7rem;
+	color: rgba(0, 0, 0, 0.671);
+}
+.tomato	{
+	color: tomato;
+}
+.signin{
+	color: rgba(0, 0, 0, 0.603);
+	text-align: center;
+}
+.signin i{
+	color: tomato;
+	padding: 1rem;
+	font-size: 1.4rem;
+	
+}

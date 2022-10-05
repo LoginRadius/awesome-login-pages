@@ -40,6 +40,7 @@ right:0;left:0;
  position:relative;
  display:none;
 }
+
 .login-reg-panel{
  color: #4A403A;
 }
@@ -150,4 +151,192 @@ right:0;left:0;
 a{
 text-decoration:none;
 color:#2c7715;
+size: 30px;
 }
+
+
+.mobile-view{
+  display: none;
+}
+
+
+/**responsive**/
+
+@media (max-width:980px){
+    h2{
+        font-size: 60px;
+    }
+
+    body{
+        font-family: 'Mukta', sans-serif;
+        align-items: center;
+        display: flex;
+        background: url('../images/bg.jpg') no-repeat;
+        background-size: cover;
+        background-position:center;
+        position:relative;
+         overflow-y: hidden;
+        
+        }
+ 
+
+
+.login-reg-panel{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+   text-align:center;
+    width:70%;
+   right:0;left:0;
+    margin:auto;
+    height:400px;
+    display: none;
+    background-color: #A8E7E9;
+   }
+
+  
+   .mobile-view{
+       
+    display: flex;
+     top: 50px;
+     height:90%;
+     width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+    position: absolute;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+    justify-self: center;
+    align-self: center;
+                               
+   }
+
+
+
+   .login-show-2 input[type="text"], .login-show-2 input[type="password"]{
+    width: 80%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: 45px;
+   }
+
+   .login-show-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255, 255, 1);
+   }
+
+   .login-show-2 input[type="button"] {
+    width: 80%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    background: #444444;
+ color: #f9f9f9;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: 45px;
+   }
+
+    .bottom {
+display: flex;
+justify-content: center;
+align-items: center;
+  width: 100%;
+    }
+
+  .text {
+      font-size: 40px;
+      width:500px;
+      float:left;
+      display: block;
+  }
+
+  .reg a{
+      font-size: 40px;
+      float: right;
+      color: blue;
+      width: 300px;
+  }
+  .reg a{
+   
+    color: blue;
+  
+  }
+
+  .forget {
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    width: 600px;
+  }
+   
+
+
+
+
+
+
+
+  .register-show-2 input[type="text"], .register-show-2 input[type="password"]{
+    width: 80%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: 45px;
+   }
+
+   .register-show-2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255, 255, 1);
+   }
+
+   .register-show-2 input[type="button"] {
+    width: 80%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    background: #444444;
+ color: #f9f9f9;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: 45px;
+   }
+
+
+
+   .log {
+    font-size: 40px;
+    float: right;
+    
+    width: 300px;
+   }
+
+   .log a{
+    
+    color: blue;
+   
+   }
+  
+  
+
+
+   
+
+
+}
+
