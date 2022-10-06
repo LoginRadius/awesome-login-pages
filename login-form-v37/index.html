@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighthouse | Contact Us</title>
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+     <link rel = "stylesheet" href = "style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@100&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@300&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/e9cf5a296c.js" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class = "login">
+        <div class = "border_login"></div>
+        <div class = "login_content">
+            <h2>Login</h2>
+            <a href = "#"><img src = "ITEMS/google_login_1.png"></a>
+            <form onsubmit = "return validation()" name = "Feedback-submit" method="post" action = "index.html">
+                <label style = "font-size: 1.5rem">Username: </label>
+                <input type = "text" id = "username" name = "Username" placeholder="Username or Email"><br>
+                <span id = "errorname" style = "color: red;"></span><br>
+    
+    
+                <Label  style = "font-size: 1.5rem">Password<span style="padding: 0rem"></span>: </Label>
+                <input type="password" id = "password" name = "Password" placeholder="Password"><br>
+                <span id = "errortel" style = "color: red;"></span><br>
+                <a href = "index.html">
+                    <div class = "button">
+                        <button type= "submit">Log in</button>
+                    </div>
+                </a>
+                <br>
+                <a href = "sign_up.html" style="font-size: 1.3rem;">Create new account</a>
+            </form>
+    
+        </div>
+    </div>
+
+<!--Form Data collection-->
+<script>
+    const scriptURL =
+        '#Your Google Sheets Script Link'
+    const form = document.forms['Feedback-submit']
+ 
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => alert(
+                "Log-in Succesfull!!"))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script type = "text/javascript">
+    function validation(){
+        var usernamehi = document.getElementById("username").value;
+        var passwordhi = document.getElementById("password").value;
+
+        var usercheck = /^[A-Za-z ]{3,30}$/;
+        var passwordcheck = /^[A-Za-z0-9._]{7,}$/;
+
+        if(usernamehi == ""){
+            document.getElementById("errorname").innerHTML = "**Please enter a Name first";
+            return false;
+        }
+        else if(usercheck.test(usernamehi)){
+            document.getElementById("errorname").innerHTML = "";
+        }
+        else{
+            document.getElementById("errorname").innerHTML = "**Please Enter a valid Name";
+            return false;
+        }
+        if(passwordhi == ""){
+            document.getElementById("errortel").innerHTML = "**Please enter a password";
+            return false;
+        }
+        else if(passwordcheck.test(passwordhi)){
+            document.getElementById("errortel").innerHTML = " ";
+        }
+        else{
+            document.getElementById("errortel").innerHTML = "**Please enter a strong password";
+            return false;
+        }
+        if(emailhi == ""){
+            document.getElementById("erroremail").innerHTML = "**Please enter Email first";
+            return false;
+        }
+        else if(emailcheck.test(emailhi)){
+            document.getElementById("erroremail").innerHTML = "";
+        }
+        else{
+            console.log("The value is matching and correct");
+            document.getElementById("erroremail").innerHTML = "**Please enter a valid Email ID";
+            return false;
+        }
+        if(confirmhi == ""){
+            document.getElementById("errortelop").innerHTML = "**Please Confirm the password";
+            return false;
+        }
+        else if(passwordhi == confirmhi){
+            document.getElementById("errortelop").innerHTML = " ";
+        }
+        else{
+            document.getElementById("errortelop").innerHTML = "**Your passwrod didn't match";
+            return false;
+        }
+    }
+</script>
+
+</body>
+</html>
