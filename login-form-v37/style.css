@@ -1,0 +1,79 @@
+.login{
+    padding: 8.0rem;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+.login .login_content h2{
+    margin-top: 0.1rem;
+    padding-top: 0rem;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 2px 2px 7px rgb(211, 207, 207);
+    
+}
+.login .login_content{
+    padding-top: 4.0rem;
+    margin-top: 4.0rem;
+    display: grid;
+    background-color: #ddf6ff;
+    box-shadow: 1px 1px 1px rgb(218, 218, 218);
+    width: 38%;
+    border-radius: 0.8rem;
+    margin-left: 32.7rem;
+    height: auto;
+    text-align: center;
+    border: 3px solid #94d8f1;
+    margin-bottom: 7.0rem;
+    /* height: 50rem; */
+}
+.login .login_content img{
+    width: 28.0rem;
+    height: auto;
+    padding-left: 0.8rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+.login .login_content p{
+    text-align: center;
+    padding-right: 0.5rem;
+}
+.login .login_content input{
+    padding: 0.5rem;
+    width: 65%;
+    margin: 0.8rem;
+    border-radius: 0.5rem;
+    border-left: 0.3rem solid #1ba1d2;
+    transition: 0.3s ease;
+    font-size: 1.5rem;
+}
+.login .login_content button{
+    margin: 1.5rem;
+    color: #e9fafd;
+    text-decoration: none;
+    background-color: rgb(4, 124, 164);
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0rem;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: 0.5s ease;
+    outline: none;
+
+}
+.login .login_content button:hover{
+    margin-top: 1rem;
+    transition : 0.5s ease;
+    box-shadow: 2px 2px 5px rgb(51, 161, 234);
+}
+.login .login_content form a{
+    margin-top: 2.0rem;
+}
