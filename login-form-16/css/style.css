@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    background-color: #2fd498;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: fit-content;
+    overflow-x: hidden;
+}
+.login-form{
+    width: 90%;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+.img-holder{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.decor{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 80%;
+}
+.cover-img{
+    width: 70%;
+    z-index: 2
+}
+.fields-hldr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.profile-img{
+    width: 100px;
+}
+input button{
+    box-shadow: none;
+    background-color: none;
+}
+input[type=text], input[type=password]{
+    border-bottom: 2px solid rgb(218, 208, 208);
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 5px;
+    /* background-color: #2fd498; */
+    transition: all 0.3s ease-in-out;
+}
+p{
+    font-size: 30px;
+}
+input[type=text]:focus,input[type=password]:focus{
+    border-style: none;
+    border: none;
+    outline: none;
+    /* background-color: #2fd498; */
+    border-bottom: 2px solid #2fd498;
+}
+input{
+    border-style: none;
+}
+input[type=button]{
+    background-color: #2fd498;
+    width: 200px;
+    height: 50px;
+    border-radius: 1.5rem;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media all and (orientation:portrait) {
+    .img-holder{
+        display: none;
+    }
+}
