@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+html, body{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: #376084;
+}
+
+.testing {
+  border: 1px solid #fff;
+}
+
+::selection{
+  background: black;
+}
+.container{
+  background: #16222E; /* note */
+  max-width: 350px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container form .title{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+  position: relative;
+  text-align: center;
+  color: #1D477C;
+}
+
+.container form .input-box{
+  width: 100%;
+  height: 45px;
+  margin-top: 25px;
+  position: relative;
+}
+.container form .input-box input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 16px;
+  border: none;
+}
+.container form .underline::before{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #757575;
+  left: 0;
+  bottom: 0;
+}
+.container form .underline::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.3s ease;
+}
+.container form .input-box input:focus ~ .underline::after,
+.container form .input-box input:valid ~ .underline::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.container form .button{
+  margin: 40px 0 20px 0;
+}
+.container .input-box input[type="text"], input[type="email"], input[type="password"]{
+  background: #16222E;
+  color: #fff;
+}
+.container .input-box input[type="submit"]{
+  background: #1D477C;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .input-box input[type="submit"]:hover{
+  background: #265ea3;
+}
+.container .option{
+  font-size: 14px;
+  text-align: center;
+}
+
+.container .option a:link {
+  text-decoration: none;
+}
+.container .option a:hover {
+  text-decoration: underline;
+}
+
+.password-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+
+.container .alert-info {
+    border: 1px solid #bd2f20; 
+    margin: 10px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    color: #bd2f20;
+    border-radius: 5px;
+  }
+  
+  .container .alert-success {
+    border: 1px solid #3C7E3F;
+    margin: 10px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    color: #3C7E3F;
+    border-radius: 5px;
+  }
+
+.github-div1 {
+  width: 48%;
+  height: 50px; 
+  margin-bottom: 20px; 
+  display: inline-block; 
+  background-color: #e6e3e3;
+}
+
+.google-div1 {
+  width: 48%; 
+  height: 50px; 
+  margin-bottom: 20px; 
+  display: block; 
+  float: right; 
+  background-color: #e6e3e3;
+}
+
+.google-div1:hover {
+  background-color: white;
+}
+.github-div1:hover {
+  background-color: white;
+}
+
+.socials-div2 {
+  display: block;
+  float: left;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+        <div class="container">
+            <form method="POST" action="" style="margin-top: 60px;">
+                
+                <div><img src="img/login-lock2.png" style="width: 25%; height: 25%; display: block; margin: auto; margin-bottom: 45px;"></div>
+        
+                <div class="input-box underline">
+                    <input type="text" name="username" placeholder="Enter Your Username" required>
+                    <div class="underline"></div>
+                </div>
+                <div class="input-box">
+                
+                    <input id="password" type="password" name="password" placeholder="Enter Your Password" required>
+                    <div class="underline"></div>
+                    <a class="" id="toggle-password">
+                        <span class="password-icon hide" id="open-eye"><i class="fas fa-eye" style="color: #757575;"></i></span>
+                        <span class="password-icon" id="closed-eye"><i class="fas fa-eye-slash" style="color: #757575;"></i></span>
+                    </a>
+                    
+                </div>
+                
+                <div class="input-box button">
+                    <input type="submit" name="login" value="Log In">
+                </div>
+            </form>
+        
+            <div style="margin: -13px 0 0 5px; text-align: center;">
+                <div class="option" style="display: inline-block;"><a href="" style="color: #757575; font-size: 12px;">Don't have an account?</a></div>
+                <div class="option" style="display: inline-block;"><a href="" style="color: #757575; font-size: 12px;">Forgot your password?</a></div>
+            </div>    
+        
+            <div class="option" style="color: #757575; margin-top:25px; margin-bottom: 25px;">
+                Or login with
+            </div>
+        
+            <div style="margin:auto;">
+                <div class="option github-div1" style="border-radius: 3px;">
+                    <a href="">
+                        <div class="socials-div2">
+                            <img src="img/icons8-github-48.png" style="margin-top: 1px;">
+                            <h3 style="float: right; margin-left: 10px; margin-top: 13px; color: black;">Github</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="option google-div1" style="border-radius: 3px;">
+                    
+                    <a href="">
+                        <div class="socials-div2">
+                            <img src="img/icons8-google-48.png" style="max-width: 35%; width: 100%; margin-top: 5px;">
+                            <h3 style="float: right; margin-left: 10px; margin-top: 13px; color: black;">Google</h3>
+                        </div>
+                    </a>
+        
+                </div>
+            </div>
+        
+            <!-- password visibility -->
+            <script src="js/passwordVisibility.js"></script>
+
+        </div>
+  
+    </body>
+</html>
