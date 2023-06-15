@@ -1,0 +1,25 @@
+.login{
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-color: #00b2e6;
+}
+
+
+
+.user{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #5805ED;
+    
+    
+}
+
+.password{
+    text-align: center;
+    align-items: center;
+    color: white;
+
+   
+}
