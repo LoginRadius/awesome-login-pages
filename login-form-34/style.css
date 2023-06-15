@@ -1,0 +1,67 @@
+.login{
+    background: rgba(0, 55, 255, 0.639);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+
+
+    align-items: center;
+    font-family: arial black;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-left: 700px;
+    border-radius: 50px;
+    width:450px;
+    height: 400px;
+
+
+}
+
+input{
+    color: white;
+}
+
+
+
+
+
+
+.user{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #ffffff;
+    border: none;
+    font-family: arial black;
+    font-size: x-large;
+    border-radius: 30px;
+    width: 200px;
+    
+
+    
+    
+}
+
+.log{
+   border: none;
+   font-family: arial black;
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+   font-size: x-large;
+   border-radius: 30px;
+   width: 100px;
+   cursor: pointer;
+
+}
+
+
+.log:hover{
+    background: rgba(225, 0, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+        color: rgb(255, 255, 255);
+}
