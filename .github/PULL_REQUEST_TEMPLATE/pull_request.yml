@@ -1,0 +1,21 @@
+name: Pull Request
+
+title: ""
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: changes_made
+    attributes:
+      label: Changes Made
+    validations:
+      required: true
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
