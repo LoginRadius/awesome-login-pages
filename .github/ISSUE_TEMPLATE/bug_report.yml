@@ -1,0 +1,34 @@
+name: Bug Report
+about: Create a report to help us improve
+
+title: "[Bug] "
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to Reproduce the Bug
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information

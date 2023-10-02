@@ -1,0 +1,22 @@
+name: Feature Request
+about: Suggest an idea for this project
+
+title: "[Feature Request] "
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Feature Request
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+    validations:
+      required: true
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information

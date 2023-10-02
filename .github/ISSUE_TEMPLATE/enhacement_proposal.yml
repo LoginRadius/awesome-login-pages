@@ -1,0 +1,28 @@
+name: Enhancement Proposal
+about: Propose an enhancement to this project
+
+title: "[Enhancement Proposal] "
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Enhancement Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+    validations:
+      required: true
+  - type: textarea
+    id: implementation_details
+    attributes:
+      label: Implementation Details
+    validations:
+      required: true
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
