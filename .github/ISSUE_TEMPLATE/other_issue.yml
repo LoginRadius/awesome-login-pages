@@ -1,0 +1,16 @@
+name: Other Issue
+about: Create an issue that doesn't fit into other categories
+
+title: ""
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Issue
+    validations:
+      required: true
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
