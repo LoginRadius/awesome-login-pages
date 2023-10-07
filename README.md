@@ -86,13 +86,15 @@ A Project which includes curated list of different login page web pages.
 | login-form-v36 | <img src="login-form-v36\assets\media\desktop.gif" width="380" >     | <img src="login-form-v36\assets\media\mobile.gif" height="200" width="100" > | [@rit-kr](https://github.com/rit-kr) 
 | login-page-with-social-media | <img src="login-page-with-social-media\Desktop.png" width="380" >     | <img src="login-page-with-social-media\Mobile.png" height="200" width="100" > | [@jmrchelani](https://github.com/jmrchelani) 
 
+| login-page-37 | <img src="/login-form-37/desktopLogin.png" width="480" > || [@chrinovic-mm](https://github.com/chrinovic-mm) |
+
 ## CONTRIBUTION
 
 - For contribution please check [contribution guideline](https://github.com/LoginRadius/awesome-login-pages/blob/main/CONTRIBUTING.md)
 - Please check the [issue list](https://github.com/LoginRadius/awesome-login-pages/issues) .
 
 ## CONTRIBUTORS
-Amazing person who made their contributions. Feel free to contribute!
+Amazing person who made their contributions. Feel free Swatigupta-droidto contribute!
 
 <a href="https://github.com/LoginRadius/awesome-login-pages/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=LoginRadius/awesome-login-pages" />
