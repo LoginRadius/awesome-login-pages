@@ -1,0 +1,17 @@
+.login-container {
+    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8; /* Adjust the opacity value as needed */
+  }
+  
+  .login-container > div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
