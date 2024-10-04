@@ -3,7 +3,7 @@
 /* BASIC */
 
 html {
-  background-color: #39FF14;
+  background-color: #02063b;
 }
 
 body {
@@ -68,7 +68,7 @@ h2.inactive {
 
 h2.active {
   color: white;
-  border-bottom: 2px solid #39FF14;
+  border-bottom: 2px solid #37075f;
 }
 
 input[type=button], input[type=submit], input[type=reset]  {
