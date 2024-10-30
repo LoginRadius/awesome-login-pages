@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入css样式 -->
+    <link rel="stylesheet" href="./style.css">
+    <title>clover</title>
+</head>
+<body>
+    <!-- 四叶草 -->
+    <div class="box">
+        <!-- 四叶草的单片叶子 -->
+        <div class="clover"></div>
+        <div class="clover"></div>
+        <div class="clover"></div>
+        <div class="clover"></div>
+    </div>
+    <!-- 表单盒子 -->
+    <div class="form-box">
+        <!-- 登录盒子 -->
+        <div class="login-box">
+            <!-- 标题 -->
+            <h1 class="title">
+                Log in
+            </h1>
+            <!-- 图片盒子 -->
+            <div class="img-box">
+                <!-- 此处可以放一张图片，有账号，happy -->
+                <img src="./img/happy.jpg " alt="">
+            </div>
+            <!-- 输入框盒子 -->
+            <div class="input-box">
+                <!-- 输入框 -->
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+            </div>
+            <!-- 按钮盒子 -->
+            <div class="btn-box">
+                <button>Log in</button>
+                <!-- 绑定点击事件 -->
+                <p onclick="mySlide()"> Don't have an account? Go sign up.</p>
+            </div>
+        </div>
+        <!-- 注册盒子 -->
+        <div class="register-box">
+            <!-- 标题 -->
+            <h1 class="title">
+                Sign up
+            </h1>
+            <!-- 图片盒子 -->
+            <div class="img-box">
+                <!-- 此处可以放一张图片，没有账号，sad -->
+                <img src="./img/sad.jpg" alt="">
+            </div>
+            <!-- 输入框盒子 -->
+            <div class="input-box">
+                <!-- 输入框 -->
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Repeat Password">
+            </div>
+            <!-- 按钮盒子 -->
+            <div class="btn-box">
+                <button>Sign up</button>
+                <!-- 绑定点击事件 -->
+                <p onclick="mySlide()">Already have an account? Go log in.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 控制切换状态
+        let flag=true
+        // 切换函数
+        const mySlide = ()=>{
+            // 获取注册盒子和登录盒子的dom元素
+            const register_box=document.querySelector('.register-box')
+            const login_box=document.querySelector('.login-box')
+
+            if(flag){
+                // 注册盒子显示
+                register_box.style.display="block"
+                // 登录盒子隐藏
+                login_box.style.display="none"
+            }else {
+                //注册盒子隐藏
+                register_box.style.display="none"
+                // 登录盒子显示
+                login_box.style.display="block"
+            }
+            // 每次点击都改变状态
+            flag=!flag
+        }
+    </script>
+</body>
+</html>
