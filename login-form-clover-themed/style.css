@@ -1,0 +1,220 @@
+* {
+    /* 去除浏览器默认内外边距 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 设置弹性布局 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 设置渐变色 */
+    background: linear-gradient(to right, #A8D5BA, #fff)
+}
+
+/* 四叶草 */
+.box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* 设置换行 */
+    flex-wrap: wrap;
+    /* 动画，转动 */
+    animation: myRotate 10s linear infinite;
+}
+
+/* 单片四叶草，正方形 */
+.clover {
+    width: 200px;
+    height: 200px;
+    background-color: #A8D5BA;
+    border: 1px solid #fff;
+}
+
+/* 单片四叶草，圆形 */
+.clover::before {
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-color: #A8D5BA;
+    position: absolute;
+    border-radius: 50%;
+    transform: translateX(-100px);
+}
+
+/* 单片四叶草，圆形 */
+.clover::after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-color: #A8D5BA;
+    position: absolute;
+    border-radius: 50%;
+    transform: translateY(-100px);
+}
+
+/* 设置水平竖直方向的位置，以及旋转角度 */
+.clover:nth-child(1) {
+    transform: translate(52px, 52px);
+}
+
+.clover:nth-child(2) {
+    transform: translate(52px, 52px) rotate(90deg);
+}
+
+.clover:nth-child(3) {
+    transform: translateX(52px) rotate(-90deg);
+}
+
+.clover:nth-child(4) {
+    transform: translateX(52px) rotate(180deg);
+}
+
+/* 旋转动画 */
+@keyframes myRotate {
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 表单盒子 */
+.form-box {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    right: 20%;
+    /* 模糊，磨砂质感 */
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 1px 19px rgba(0, 0, 0, .1);
+    z-index: 99;
+}
+
+.login-box,
+.register-box {
+    /* 过渡动画 */
+    transition: 2s ease-in-out;
+}
+
+/* 一开始隐藏注册盒子 */
+.register-box {
+    display: none;
+}
+
+/* 标题 */
+.title {
+    margin-top: 50px;
+    text-align: center;
+    /* 设置用户禁止选中 */
+    user-select: none;
+    color: #fff;
+    /* 文字阴影 */
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, .1);
+}
+
+/* 图片盒子 */
+.img-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    user-select: none;
+    border-radius: 50%;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, .1);
+}
+
+/* 图片 */
+.img-box img {
+    width: 100%;
+}
+
+/* 输入框盒子 */
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 输入框 */
+input {
+    outline: none;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid #fff;
+
+
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+/* 按钮盒子 */
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 按钮 */
+button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #85d5a5;
+    /* border: 1px solid #e6a49d; */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* 按钮文字 */
+.btn-box p {
+    height: 30px;
+    line-height: 30px;
+    /* 禁止选中 */
+    user-select: none;
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+
+}
+
+.btn-box p:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
