@@ -85,6 +85,7 @@ A Project which includes curated list of different login page web pages.
 | login-form-v35 | <img src="login-form-v35\screenshot.PNG" width="480" >   | <img src="login-form-v35\screenshot-mobile.PNG" height="200" width="100" > | [@vershagupta](https://github.com/vershagupta) 
 | login-form-v36 | <img src="login-form-v36\assets\media\desktop.gif" width="380" >     | <img src="login-form-v36\assets\media\mobile.gif" height="200" width="100" > | [@rit-kr](https://github.com/rit-kr) 
 | login-page-with-social-media | <img src="login-page-with-social-media\Desktop.png" width="380" >     | <img src="login-page-with-social-media\Mobile.png" height="200" width="100" > | [@jmrchelani](https://github.com/jmrchelani) 
+| simple-login-form | <img src="simple-login-form/PC-Screenshot.png" width="380" >     | <img src="simple-login-form/Mobile-Screenshot.png" height="200" width="100" > | [@amirabbasjadidi](https://github.com/Amirabbasjadidi/) 
 
 ## CONTRIBUTION
 
