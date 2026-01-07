@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* background: linear-gradient(135deg, #b8def0, #59a1ff); */
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    /* background-color: rebeccapurple; */
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.login-box {
+    width: 450px;
+    background: #010d1d;
+    font-size: x-large;
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    color: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 40px 12px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+    top: -8px;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.toggle {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
